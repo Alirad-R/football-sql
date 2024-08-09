@@ -1,0 +1,5 @@
+Join1=player⋈p.id=pf.player_ssn​plays_for
+Join2=Join1⋈pf.team_id=t.team_idteam
+Join3=Join2 LEFT_OUTER_JOIN mp ON (p.id=mp.player_id)
+
+πp.id,p.name→player_name,t.name→team_name,pf.contract_draft_time,pf.contract_termination_date,pf.contract_amount,COALESCE(mp.matches_played,0),COALESCE(mp.goals_scored,0),COALESCE(mp.fouls,0),COALESCE(mp.yellow_cards,0),COALESCE(mp.red_cards,0),COALESCE(mp.player_score,0),COALESCE(mp.subbed_out_games,0)​(Join3)

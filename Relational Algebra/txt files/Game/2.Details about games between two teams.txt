@@ -1,0 +1,5 @@
+Join1=game⋈g.player_id=pig.id​player_in_game
+Join2=Join1⋈g.team_id=t.team_idteam
+Join3=Join2⋈g.match_id=m.match_id​matches
+
+γt.team_id,t.name,g.match_id;SUM(pig.goals),SUM(pig.fouls),SUM(pig.yellow_cards),SUM(pig.red_cards),goals_received,lineup​((πt.team_id,t.name,g.match_id,SUM(pig.goals)→goals_scored,SUM(pig.fouls)→fouls,SUM(pig.yellow_cards)→yellow_cards,SUM(pig.red_cards)→red_cards,SUBSTRING_INDEX(m.result,′−′,−1)→goals_received,m.lineup_home→lineup​(σt.team_id=m.home_team_id​(Join3)))∪(πt.team_id,t.name,g.match_id,SUM(pig.goals)→goals_scored,SUM(pig.fouls)→fouls,SUM(pig.yellow_cards)→yellow_cards,SUM(pig.red_cards)→red_cards,SUBSTRING_INDEX(m.result,′−′,1)→goals_received,m.lineup_away→lineup​(σt.team_id=m.home_team_id​(Join3))))

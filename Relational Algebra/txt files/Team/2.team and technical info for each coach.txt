@@ -1,0 +1,7 @@
+Join1=staff⋈s.id=wf.staff_id​works_for
+Join2=Join1⋈wf.team_id=t.team_idteam
+Join3=Join2⋈t.team_id=g.team_id​game
+Join4=Join3⋈g.match_id=m.match_idmatches
+Join5=Join4⋈g.player_id=pig.id​player_in_game
+
+πs.id,s.name,wf.contract_draft_time→contract_date,wf.contract_termination_date,wf.contract_period,wf.contract_amount,matches,fouls,goals​(γs.id,s.name,wf.contract_draft_time,wf.contract_termination_date,wf.contract_period,wf.contract_amount;count(g.match_id),∑(pig.fouls),∑(goals)​(σs.role=′Coach′​(Join5)))

@@ -1,0 +1,4 @@
+Join1=player⋈p.id=pf.player_ssn​plays_for
+Join2=Join1⋈pf.team_id=t.team_idteam
+
+π∗​(σpf.contract_termination_date>current_date()​(Join2))

@@ -1,0 +1,1001 @@
+id,name,age,address,current_shirt_no,injury,total_time_played,player_overall_score,goals,fouls,most_played_position,red_cards,yellow_cards
+0,"Abel Warren",24,"21 South White Fabien Freeway",72,73,6577,72.34,292,36,GK,14,36
+1,"Erick Valentine",28,NULL,91,8,5216,74.17,238,38,SS,8,13
+2,"Janice Payne",19,"341 West Green Old Freeway",91,48,7002,34.48,79,38,LB,12,24
+3,"Gretchen Mason",29,"36 North Rocky Nobel St.",67,46,1034,88.83,323,29,LM,0,46
+4,"Lawanda Noble",27,NULL,8,44,3041,70.11,223,46,AM,3,2
+5,"Robbie Baird",29,NULL,3,69,6111,34.84,286,19,LCB,0,20
+6,"Carla Compton",14,"20 North Rocky New Way",69,27,4879,11.95,5,29,D,8,16
+7,"Heath Stafford",11,"341 North Rocky First Way",79,75,8054,84.14,250,29,GK,13,22
+8,"Kendra Stevenson",24,NULL,15,21,136,8.24,169,24,LB,7,34
+9,"Brandie Chase",28,"417 North Green Second St.",91,92,8396,91.95,363,45,RB,18,44
+10,"Rose Kirk",10,"71 South Green Milton Freeway",75,88,4674,63.52,101,18,WB,2,37
+11,"Ernest Lam",23,"811 North Green Cowley Freeway",1,22,5095,77.69,351,4,CB,13,37
+12,"Randal Jackson",27,"89 West Green Oak Avenue",73,88,3973,58.31,130,23,M,3,45
+13,"Ismael Holt",11,"188 North Rocky Old Way",94,43,8907,46.82,355,18,AMR,8,41
+14,"Keri Williams",18,"641 South White Clarendon St.",81,39,6166,25.19,40,33,LW,10,18
+15,"Cameron Miranda",17,"75 North Green Second Way",19,99,5189,37.88,165,10,M,12,31
+16,"Roberta Harrison",29,"31 North White Old Drive",32,88,1937,76.30,219,5,GK,19,38
+17,"Colby Wilkerson",21,"327 South Green Cowley Freeway",74,28,6195,21.77,351,20,CB,6,0
+18,"Cornelius Johnson",19,"633 South Rocky Hague Way",28,24,3110,30.99,60,5,WB,3,0
+19,"Teddy Hoover",10,"49 South Rocky Hague Road",23,59,4528,85.80,273,2,SW,6,6
+20,"Lillian Duran",21,"27 North Green Nobel Road",80,51,3592,10.24,249,16,RB,18,22
+21,"Dianna Oliver",27,"588 East Rocky Old Street",75,7,1109,43.68,12,17,D,14,15
+22,"Geoffrey Aguirre",14,"623 North White Second Road",77,4,2374,51.74,326,3,CF,11,42
+23,"Melissa Atkinson",13,"68 North Green New Street",88,68,2818,10.21,21,42,M,5,10
+24,"Moses Downs",29,"73 South Green Milton Freeway",52,45,6036,59.14,92,7,CAM,6,46
+25,"Franklin Jones",14,"32 West Rocky Old Boulevard",6,35,4006,74.08,105,28,AML,19,23
+26,"Arlene Andersen",22,"912 North Green Nobel Boulevard",34,30,3930,38.79,66,6,M,4,49
+27,"Kathleen Novak",22,"668 East Rocky Fabien St.",48,12,1707,82.66,24,35,SW,8,32
+28,"Sheldon Stuart",14,"655 West Rocky Old Avenue",89,34,182,45.88,271,6,LB,4,22
+29,"Ivan Humphrey",26,NULL,56,69,2940,44.41,23,8,M,18,27
+30,"Andre Bush",23,"37 West Green Hague Parkway",55,20,2413,90.38,54,39,DM,9,35
+31,"Joni Roberts",25,NULL,57,3,5823,10.83,168,44,AMR,19,13
+32,"Rex Galloway",12,"382 North Rocky Second Street",88,19,2757,59.60,32,18,SW,15,13
+33,"Dwight Patton",12,"991 West Rocky Second Boulevard",22,23,1609,19.47,114,15,SW,5,17
+34,"Lucas Rivers",10,"48 East Rocky Second Avenue",32,3,8038,60.22,73,44,M,9,2
+35,"Arnold French",28,"88 South White Nobel Parkway",15,68,686,60.61,116,41,LB,15,21
+36,"Kristen Wilson",15,"181 North Green New Way",67,58,7885,77.07,116,9,RB,7,44
+37,"Bobbi Haynes",21,"783 North Rocky New Avenue",92,83,1281,3.90,209,21,CM,12,5
+38,"Carl Nunez",14,"431 South White Cowley St.",56,61,4052,50.10,313,42,SW,14,0
+39,"Frances Keller",12,"329 West Green Hague Street",29,65,5182,92.48,290,4,D,7,7
+40,"Elena Huber",11,"377 South Rocky Nobel Boulevard",80,27,8032,34.94,262,5,WB,3,24
+41,"Luz Olson",12,"833 West Green Fabien Boulevard",33,70,5405,95.83,322,8,AML,8,13
+42,"Jami Cuevas",11,"293 South Rocky New Way",71,99,1505,44.01,332,5,LM,11,47
+43,"Ruth Simmons",19,"97 North Green Hague Road",61,47,8078,74.94,21,45,LCB,3,24
+44,"Noah Nolan",19,"48 South Rocky Milton Drive",71,9,8704,33.86,86,29,SS,16,35
+45,"Emma Anthony",15,"78 South Green Hague Parkway",6,85,4102,25.40,103,3,CDM,9,23
+46,"Damien Massey",25,"721 North Rocky New Avenue",45,56,2070,33.68,356,0,LM,15,16
+47,"Caroline Nash",25,"95 West Rocky Milton Freeway",53,49,5513,56.71,149,16,M,8,10
+48,"Elisabeth Cole",16,"983 West White New Way",62,83,1775,40.62,190,34,D,5,16
+49,"Morgan Simon",24,"41 South Rocky Nobel St.",68,18,6307,19.29,266,7,LW,3,32
+50,"Clifford Diaz",27,"72 South White Milton Road",85,2,4842,69.45,207,34,RB,7,8
+51,"Guadalupe Pena",18,"53 South Green Second Way",50,18,1292,81.56,90,45,LM,10,47
+52,"Sophia Arnold",13,"72 West Green Hague Street",49,88,6496,10.91,20,21,M,13,30
+53,"Angela Horn",13,"25 South Rocky Cowley Parkway",72,15,7849,29.82,178,43,M,0,8
+54,"Byron Allen",13,"762 South Green New Drive",82,94,5526,71.68,109,19,WB,3,35
+55,"Jesse Glover",21,NULL,43,57,1297,28.65,6,8,WB,17,29
+56,"Paige Cooper",11,"81 West Green First Boulevard",17,0,4272,31.59,216,19,D,13,45
+57,"Herman Williamson",13,"89 West Rocky First St.",65,57,7431,73.44,128,11,WB,8,49
+58,"Clarissa Giles",22,"62 East Green Second Way",38,0,1189,74.92,351,25,GK,5,18
+59,"Loretta Mueller",20,"32 West Green Hague Freeway",45,77,7313,13.24,295,3,SW,8,1
+60,"Austin Rivas",10,"61 North Rocky Hague Road",82,29,8059,35.86,278,8,WB,4,28
+61,"Deana Kline",21,"576 East White Cowley Way",6,64,8027,47.09,157,48,AMR,16,36
+62,"William Stout",21,NULL,83,87,6815,78.93,398,1,M,19,7
+63,"Bridgett Woodard",19,"57 North White Milton Freeway",43,59,1083,27.57,27,11,LB,18,35
+64,"Tamiko Novak",28,"753 North Green Nobel Freeway",51,28,8798,73.82,234,17,GK,16,32
+65,"Irma Arnold",10,"14 South Rocky Hague Drive",30,1,7948,58.78,58,42,WB,8,49
+66,"Kellie Galvan",19,"70 West White Milton Avenue",63,33,2205,93.18,168,5,M,14,10
+67,"Alex Rowland",17,"852 North Rocky Old Road",71,77,5481,65.61,372,49,CF,17,7
+68,"Whitney Jennings",26,"81 South Green Cowley Road",37,97,1653,77.18,303,17,CB,3,7
+69,"Marc Pope",16,"752 North Rocky Fabien Parkway",25,6,5482,42.47,211,17,M,14,40
+70,"Dwayne Flynn",23,"20 South White Fabien Parkway",73,8,404,38.69,48,23,SS,15,25
+71,"Theodore Melton",24,"867 West Green Second Road",67,83,3258,51.42,122,23,CF,2,46
+72,"Jayson Shields",24,"30 South White Milton Drive",79,98,3943,61.53,215,36,GK,7,13
+73,"Lauren Spencer",20,"70 North Rocky Milton Way",3,77,4740,27.28,7,38,LW,5,0
+74,"Tim Taylor",10,"50 West Green Hague St.",45,19,8697,70.06,165,7,GK,13,18
+75,"Omar Sanders",28,"444 South Green Clarendon Drive",2,2,8948,0.54,24,3,WB,1,5
+76,"Darla Dalton",17,"498 South Green Second Freeway",25,6,5563,42.83,202,15,SS,13,38
+77,"Melisa Li",22,NULL,5,11,8146,96.43,127,19,WB,4,29
+78,"Ron George",13,"334 West White First Street",15,80,7423,48.17,318,22,M,2,22
+79,"Heidi Petty",19,"15 North Rocky Milton Way",77,16,175,39.74,124,34,GK,18,41
+80,"Judith Kane",28,"431 North Rocky Nobel Boulevard",11,80,6375,40.39,362,30,D,4,35
+81,"Wallace Savage",15,NULL,97,76,3726,19.50,44,44,DM,6,12
+82,"Luz Gregory",24,"23 North Green Hague Drive",67,83,3274,51.46,119,22,RB,2,46
+83,"Cari Dillon",15,"18 East Green Milton Avenue",49,36,6754,61.45,388,42,CM,2,22
+84,"Regina Blackburn",22,"70 South Green New St.",76,11,542,40.93,71,26,RM,16,29
+85,"Latanya King",26,"86 West Rocky First Street",63,26,3240,98.67,71,40,LM,10,36
+86,"Rudy Mc Knight",20,"724 North Green Nobel Parkway",48,14,1518,81.96,49,39,CDM,9,38
+87,"Lewis Maxwell",10,"301 West Green New Drive",92,92,8734,94.44,348,42,LB,17,40
+88,"Jasmine Padilla",22,"372 West White Fabien Avenue",68,53,8987,83.55,28,45,AML,4,22
+89,"Laura Caldwell",13,"63 North White First Freeway",25,42,8005,6.78,385,7,M,15,33
+90,"Dustin Clements",12,NULL,53,44,6562,62.80,64,3,DM,5,39
+91,"Julian Heath",21,"541 West White Fabien Boulevard",65,50,8731,80.84,19,44,WB,4,21
+92,"Kirsten Dickerson",17,"57 South White Clarendon Drive",83,58,3236,10.13,326,27,RB,1,39
+93,"Rickey Doyle",27,"752 East Rocky Hague Blvd.",10,96,3184,22.36,234,22,M,14,3
+94,"Wesley Nichols",20,"35 East Green Milton Freeway",66,86,2617,47.72,175,31,GK,4,10
+95,"Brent Hanson",27,"78 East White New Freeway",33,90,1708,75.48,250,9,GK,1,45
+96,"Kurt Wade",27,"61 West Green Second Freeway",17,55,3685,78.30,279,3,WB,6,11
+97,"Sonya Watkins",16,NULL,86,96,6174,77.29,101,17,RB,3,31
+98,"Cassandra Fischer",17,"806 West Green Cowley St.",76,33,5754,20.36,14,30,LWB,9,15
+99,"Bobbie Hill",18,"218 North Green Milton Road",72,28,5646,17.90,379,25,RB,7,8
+100,"Caroline Koch",24,"66 West Green Cowley Avenue",61,93,8941,30.40,349,9,M,11,6
+101,"Marty Luna",27,"87 South White Milton Drive",68,48,741,87.59,358,34,D,1,5
+102,"Crystal Lucas",28,"38 East Green First Way",30,20,4535,40.00,361,40,RB,0,25
+103,"Timothy Young",15,"57 South White Milton Parkway",43,95,3388,89.44,215,3,WB,0,32
+104,"Darren Gates",16,"432 South White Old Drive",38,72,6263,3.78,299,4,WB,8,5
+105,"Erin Clark",28,NULL,29,18,4466,38.99,352,38,CDM,19,23
+106,"Desiree Chandler",23,"266 East Green Old Blvd.",92,47,7549,38.17,47,33,SW,11,15
+107,"Allyson Sloan",11,NULL,68,95,1310,41.06,304,1,WB,9,41
+108,"Bridgett Lawrence",14,"72 South White Second Way",27,78,2280,75.50,123,40,GK,15,17
+109,"Bobby Cunningham",16,"416 South White Hague Boulevard",52,55,4116,48.67,265,34,CDM,12,39
+110,"Bennie Park",29,NULL,76,23,7561,30.14,250,4,DM,3,24
+111,"Chanda O'Connell",29,"22 East Rocky Second Road",58,68,3376,47.43,399,5,LM,17,20
+112,"Lakeisha Foster",21,"864 North Green Fabien Freeway",89,63,4101,17.98,324,26,CAM,1,35
+113,"Anne Robertson",10,"482 West Green New Parkway",74,37,4577,12.91,95,43,WB,12,36
+114,"Marsha Cervantes",21,"76 East Rocky Old Drive",49,64,1751,34.20,39,12,WB,18,35
+115,"Marty Craig",29,"90 North Green Clarendon St.",92,9,5560,77.02,231,36,AMR,8,10
+116,"Neil Solomon",21,"86 South Rocky Hague Road",16,59,2663,72.22,358,16,WB,9,31
+117,"Darcy Gamble",15,"975 East Green Clarendon Way",54,75,1046,32.74,161,30,LM,3,13
+118,"Olivia O'Connell",12,"893 North White Hague Way",3,67,6448,36.68,256,14,GK,19,12
+119,"Lonnie Dickerson",20,NULL,98,40,1571,57.95,255,2,M,4,14
+120,"Pablo Weaver",13,"99 South Green Milton Freeway",69,45,1652,93.02,287,23,D,19,37
+121,"Kelley Cantu",14,"36 West Green Second Way",76,3,2321,51.15,324,3,D,11,42
+122,"Alisha Franklin",21,"505 West Rocky Milton Drive",56,73,2064,39.29,93,20,CDM,1,45
+123,"Dena Alvarez",21,"47 South Rocky New Drive",60,61,5334,59.31,252,31,AML,12,32
+124,"Gustavo Anderson",17,"26 South Green Fabien Parkway",73,79,5614,67.36,385,0,LB,18,9
+125,"Damion Stein",22,"320 North White Milton Boulevard",70,6,108,35.85,44,23,CDM,15,25
+126,"Denise Figueroa",26,"711 North Rocky Fabien Avenue",1,37,2468,63.50,190,42,CF,2,47
+127,"Owen Strong",18,"85 West Green Milton Parkway",7,33,4678,78.53,64,21,CB,17,12
+128,"Aisha Rollins",16,"471 North White Fabien Freeway",15,78,7950,51.30,276,16,RM,1,11
+129,"Marcos Reed",23,"15 South Green Hague Boulevard",74,42,3478,6.56,185,7,D,15,9
+130,"Mandi Sawyer",17,"983 East White Nobel St.",28,93,8877,62.88,351,26,WB,4,23
+131,"Keri Riggs",23,"23 North Green Hague Street",53,51,5259,55.58,178,21,M,9,17
+132,"Alexander Ballard",26,"579 South Green First Boulevard",80,30,7317,30.75,319,14,M,6,39
+133,"Colleen Guerrero",13,"166 North Rocky Old Avenue",86,15,2770,58.53,3,14,M,14,7
+134,"Edith Houston",29,"856 South Rocky Second Blvd.",90,72,2435,8.93,75,0,WB,7,23
+135,"Betsy Grant",14,"73 South White First Street",53,58,3810,47.28,299,40,WB,13,48
+136,"Jorge Berry",16,NULL,60,31,1595,88.19,183,8,WB,14,15
+137,"Casey Orr",14,NULL,14,12,1478,14.98,34,3,WB,1,1
+138,"Naomi Floyd",10,"84 South Green Milton Street",34,89,2067,77.55,220,5,SS,19,38
+139,"Kisha Nicholson",24,"13 South Green Fabien Parkway",71,72,6460,71.29,292,36,DM,14,37
+140,"Valerie Weiss",16,NULL,18,98,4983,36.04,166,11,AMR,12,32
+141,"Nina Cain",11,"21 North White Second Road",77,40,4923,16.34,102,43,GK,12,36
+142,"Brandy Ayers",18,"511 North White First Way",76,83,5852,70.35,4,3,M,19,12
+143,"Deana Zavala",14,"888 West White Second Parkway",4,50,981,56.83,359,18,LCB,8,37
+144,"Noel Vance",12,"32 North Green New Drive",10,9,963,10.27,34,4,AMR,1,3
+145,"Katie Schmidt",20,"625 South Green Hague Drive",5,13,7787,94.64,163,24,LB,6,38
+146,"Jacob Mueller",20,"64 East Green Milton Road",9,1,2103,15.93,318,36,AML,17,25
+147,"Bennie Walls",10,"28 West Rocky New Drive",74,3,1518,45.24,359,9,D,12,2
+148,"Mario Hansen",21,"561 South White Milton Drive",69,38,2881,0.99,183,7,GK,15,10
+149,"Rusty Thompson",24,NULL,12,50,2912,71.12,276,4,LCB,5,13
+150,"Kristy Hall",14,"40 West Rocky Milton Drive",15,12,1612,16.01,29,2,CB,1,0
+151,"Rose Solomon",19,"68 South Green Second Blvd.",2,43,1580,59.05,280,6,GK,5,19
+152,"Susan Gay",18,NULL,87,78,582,96.21,202,20,D,12,6
+153,"Heidi Conner",12,"40 North Green Milton Drive",95,26,3139,64.89,75,24,RB,17,20
+154,"Walter Stafford",20,"617 North Green Cowley Way",24,52,5994,94.40,156,33,AML,2,27
+155,"Veronica Reyes",14,NULL,35,87,2778,82.24,176,48,CB,18,26
+156,"Rickey Bowman",12,"752 North Green Milton Road",28,80,2131,75.33,152,45,AML,17,23
+157,"Joey Osborne",23,"39 South Rocky Fabien Parkway",54,36,8305,72.79,319,30,M,19,2
+158,"Warren Mcfarland",25,"770 South Rocky Second Freeway",76,77,6892,76.18,315,39,DM,15,40
+159,"Christie Peterson",11,"313 South Green Hague Street",97,96,121,98.71,365,44,SW,18,42
+160,"Orlando O'Connor",22,"94 South White Hague Road",1,23,4924,77.00,372,8,LM,14,42
+161,"Andre Gregory",16,"481 South Rocky Oak Blvd.",98,76,3977,21.46,36,43,DM,6,9
+162,"Nelson Love",25,"425 South Green Milton Freeway",10,99,2864,20.80,267,28,CAM,15,11
+163,"Alex Mills",19,"462 West Rocky Fabien Freeway",34,66,6439,3.01,241,45,CF,5,43
+164,"Priscilla Walter",12,"229 East Rocky Clarendon Way",38,59,8605,16.69,92,22,CDM,0,4
+165,"Natasha Craig",19,"35 South White First Freeway",24,53,5914,93.96,163,35,CDM,2,28
+166,"Jill Hunt",10,"86 South White Hague Freeway",52,11,3156,92.83,349,22,M,5,11
+167,"Eduardo Choi",10,"787 West Green Hague Drive",63,7,6856,19.90,158,41,GK,19,7
+168,"Constance Haley",10,"345 South Green First Freeway",98,16,6075,82.89,259,40,GK,9,14
+169,"Becky Fritz",10,"934 North Rocky First Way",94,44,8743,45.96,371,21,M,8,44
+170,"Barry Odom",19,NULL,79,35,6178,23.93,7,28,DM,9,11
+171,"Dewayne Perez",24,"48 West Green Fabien Blvd.",31,74,4134,87.80,9,22,LWB,11,36
+172,"Kurt Horne",28,"97 East Green Oak Boulevard",94,12,5542,77.93,257,40,SS,9,16
+173,"Vicki Ali",13,"63 South Green Second Blvd.",23,40,7828,4.77,375,5,WB,15,32
+174,"Arnold Hanna",17,NULL,5,81,4440,26.51,55,45,GK,7,11
+175,"Sheryl Lutz",11,"798 West Rocky New Road",45,1,3043,88.94,279,12,M,2,47
+176,"Cheri Aguirre",13,"647 North White Nobel Freeway",42,80,5997,4.42,374,15,WB,11,22
+177,"Carmen Castillo",19,"228 North Green Second Freeway",7,82,4890,30.23,46,43,GK,7,8
+178,"Clarissa Howe",27,"95 North Green Hague Drive",5,73,5924,34.68,324,25,M,2,28
+179,"Allyson Mercer",10,"64 East Green Second Freeway",97,30,2918,64.55,116,30,M,19,30
+180,"Oscar Norris",17,"82 South White Hague Road",10,4,1713,14.02,359,42,M,18,35
+181,"Rocky Norris",16,"74 North Green Second Street",58,96,7437,20.55,45,24,ST,14,31
+182,"Kate Hess",18,"89 South White Old Freeway",83,74,307,92.88,183,18,LWB,11,3
+183,"Rosa Patel",29,"219 South Green First Avenue",51,61,2959,41.91,358,49,LB,16,13
+184,"Tamiko Hardin",19,"33 North Rocky First Blvd.",80,86,6376,75.33,9,3,LWB,19,11
+185,"Monique Luna",10,"117 North Green Nobel Drive",11,95,3750,25.86,193,16,GK,12,43
+186,"Damion Pope",25,"696 East White Clarendon Blvd.",31,56,7272,5.96,128,28,M,1,16
+187,"Martin Moreno",17,"461 East Green Fabien Road",13,75,7877,49.52,249,12,ST,19,6
+188,"Phillip Serrano",15,"810 South Rocky Second Drive",57,45,7242,68.24,44,49,WB,4,32
+189,"Stephan Arellano",29,"26 East White Milton Boulevard",46,70,8731,21.44,179,34,M,4,21
+190,"Devin Mckenzie",24,"52 North Rocky Nobel Way",82,51,4151,14.42,226,12,CF,17,15
+191,"Rick Whitaker",22,"54 South White First St.",83,36,6965,30.25,385,24,CB,8,4
+192,"Keri Owen",29,"258 North Rocky New Freeway",40,14,8255,65.22,146,5,AML,12,16
+193,"Christy Maynard",21,"50 South Rocky Hague St.",32,94,632,68.87,329,22,AML,3,16
+194,"Orlando Montgomery",13,"693 North Green Hague Avenue",50,73,493,27.72,162,31,LCB,3,15
+195,"Wallace Wise",26,"16 North Green Second Boulevard",39,32,4784,45.66,43,1,M,3,41
+196,"Dante Munoz",11,"776 North Green Second Parkway",20,38,7432,1.36,381,7,CB,15,35
+197,"Kirsten Hart",18,"95 South Green Hague Avenue",18,13,2359,21.88,6,48,GK,1,42
+198,"Clinton Velazquez",23,"345 South Green Second Avenue",45,24,7752,65.08,254,21,CF,16,41
+199,"Suzanne George",17,"848 North Green Oak Way",51,70,1178,32.06,115,24,M,1,2
+200,"Trent Melton",11,"559 South Green Second Way",44,50,2940,38.31,275,37,GK,12,46
+201,"Alex Michael",29,"29 West Green Milton Freeway",46,54,2779,38.46,314,43,LB,14,5
+202,"Enrique Pope",13,"595 South Green Fabien Blvd.",45,83,6188,7.05,395,18,WB,12,26
+203,"Harvey Romero",16,NULL,42,10,505,73.30,64,42,CF,9,44
+204,"Leo Proctor",10,"463 East Rocky Hague Drive",67,61,7177,73.06,176,19,WB,9,10
+205,"Chastity Beard",19,"133 North White Old Road",12,89,5208,34.69,83,49,M,8,14
+206,"Kristin Velasquez",26,"948 East Green Cowley Road",96,16,5240,76.81,297,46,DM,11,25
+207,"Stefanie Simon",13,"46 North Green Old Freeway",33,2,8590,63.73,35,38,RB,8,42
+208,"Trina Huerta",26,"77 North White Milton Way",23,30,897,16.55,201,28,AML,8,38
+209,"Janet Hill",23,"39 South Green First Drive",68,2,70,34.24,14,18,WB,13,19
+210,"Willie Conley",15,"22 South White Fabien Road",87,81,94,93.72,251,28,LW,13,18
+211,"Noah Harvey",11,"726 West White Hague Road",15,65,1088,62.65,76,35,CAM,13,11
+212,"Chadwick Madden",12,"89 South Rocky Second Drive",26,61,4838,88.76,276,2,ST,6,6
+213,"Grant Burton",29,"21 West White Cowley Road",11,46,3504,74.16,219,45,LM,3,49
+214,"Staci Hopkins",27,"60 South Green New St.",54,82,8886,26.40,265,47,CF,7,39
+215,"Justin Woodard",27,"21 South White Milton Street",66,46,680,86.47,345,33,GK,1,2
+216,"Benjamin Klein",15,"42 South Green Hague Road",96,26,3617,68.13,47,20,GK,16,13
+217,"Marie Short",14,"357 South Rocky Milton Freeway",15,29,7586,98.47,301,45,GK,12,17
+218,"Ray Berg",11,"403 North White Second Road",63,40,1022,86.94,280,23,WB,18,37
+219,"Eugene Henderson",16,"51 West White Oak St.",12,75,7729,48.47,257,13,LCB,0,8
+220,"Bret Hammond",25,"56 South Rocky First Freeway",54,34,8647,74.65,288,25,D,18,44
+221,"Claire Guzman",26,NULL,37,96,1688,77.28,298,16,WB,3,5
+222,"Gerardo Christian",18,"63 South Green Second Way",17,29,8372,5.01,261,38,LM,10,6
+223,"Billie Valenzuela",12,"26 South Green Milton Road",91,71,2844,11.61,49,46,D,6,16
+224,"Hollie Rocha",20,"40 West White Nobel Freeway",19,46,5658,89.94,122,29,CDM,0,21
+225,"Pete Weiss",18,"64 North Rocky New St.",69,25,5425,15.10,360,22,LB,7,5
+226,"Carlton Haynes",27,"524 East Green Nobel Parkway",35,26,4689,43.15,3,46,LM,1,33
+227,"Tamiko Sullivan",10,NULL,32,20,5060,43.85,338,36,GK,19,18
+228,"Joni Townsend",29,NULL,17,3,4012,30.49,247,24,CB,15,3
+229,"Gloria Key",15,NULL,45,48,3581,42.20,226,29,M,10,34
+230,"Lana Richmond",15,"832 North Rocky New Blvd.",59,47,7454,70.34,48,0,M,4,32
+231,"Nathaniel Morrison",23,"34 West Green Fabien Boulevard",69,3,212,35.71,18,19,RM,14,19
+232,"Elena Glass",12,"521 North White First Avenue",33,3,8354,62.56,60,42,SW,8,48
+233,"Don Villanueva",29,"164 North Green First Blvd.",90,39,8396,41.70,345,17,D,7,40
+234,"Glenda Riggs",23,"55 South Green Second Road",74,76,6499,72.94,323,41,D,15,43
+235,"Ira Richards",16,"204 South Rocky Second Road",74,66,8441,83.77,154,14,GK,9,0
+236,"Melissa Lucas",13,"808 West Green Second Way",12,27,7311,95.63,293,44,AM,11,17
+237,"Mindy Wiggins",11,NULL,55,97,6574,14.36,87,31,GK,16,43
+238,"Erik Huang",27,"422 South Green Milton Road",75,41,4179,11.18,142,0,GK,14,47
+239,"Gustavo Mullen",24,"37 North Rocky Milton Avenue",57,38,8656,76.03,319,30,AML,19,1
+240,"Todd Walton",13,"61 East Rocky Fabien St.",72,48,1904,96.02,304,25,AM,0,39
+241,"Julie Rhodes",19,"72 North Rocky Second Drive",18,46,5462,88.53,132,30,AML,0,23
+242,"Sherman Wiggins",23,"613 South Rocky Old Drive",42,70,7554,12.77,230,43,GK,5,36
+243,"Loren Huang",17,"79 North Green Second Drive",69,75,5216,63.06,369,49,D,17,7
+244,"Cesar Simmons",21,"711 South White Milton Drive",5,95,2017,13.18,271,29,CB,15,15
+245,"Kevin Contreras",13,"26 South Green Cowley Parkway",23,73,1860,71.02,108,39,SW,15,15
+246,"Brandon Boyd",23,"761 North White Milton Way",49,30,8066,69.06,281,25,AM,18,45
+247,"Leslie Cervantes",26,NULL,11,49,3076,71.77,256,1,LCB,5,8
+248,"Omar Ayala",14,"88 West Rocky Clarendon Blvd.",2,97,818,5.16,343,40,GK,17,35
+249,"Tonya Sanford",11,"50 South White Milton Freeway",96,63,6079,32.40,234,11,WB,18,9
+250,"Lawrence Gonzales",20,"36 North White Hague St.",63,48,8413,77.70,14,44,CDM,3,21
+251,"Rita Hobbs",20,"29 East Green Nobel Road",59,10,5095,7.93,259,8,AM,2,35
+252,"Kristina Cohen",12,"75 North Green Second Way",80,92,5264,69.30,110,19,DM,3,36
+253,"Tamara Mullins",15,"784 North Green New Road",35,85,2963,83.05,154,44,WB,17,21
+254,"Lorraine Mc Lean",21,"301 South Green Second Boulevard",36,49,906,23.01,356,1,AMR,15,20
+255,"Angel Ponce",16,"637 South Rocky Second Blvd.",38,6,262,70.13,41,39,WB,8,41
+256,"Tamika Perry",25,"36 North Rocky Hague Freeway",75,92,3930,59.45,167,29,RCB,5,3
+257,"Elena Savage",25,"86 West Green Old Road",24,31,781,16.08,216,30,M,9,42
+258,"Annie Mc Clure",10,"23 South Green Hague Road",54,46,6414,62.51,90,7,CB,6,44
+259,"Derick Ortega",17,"64 North Green Nobel Street",83,9,3138,59.12,335,4,LWB,11,41
+260,"Eric Harrell",20,"61 South Green First St.",10,51,2191,66.14,316,10,AML,7,24
+261,"Ira Barrera",22,"85 North Rocky Hague Parkway",84,22,1056,48.21,133,35,LCB,19,40
+262,"Lucas Jimenez",26,"336 East Rocky Hague Street",93,79,2101,8.62,142,10,LM,10,38
+263,"Ira Gutierrez",25,NULL,42,52,1902,31.19,333,46,M,14,12
+264,"Ethan Perry",21,"917 North Green Cowley Drive",95,69,4477,22.66,354,30,GK,3,40
+265,"Micheal Kemp",28,"48 North Rocky Milton Way",47,89,5676,5.22,64,29,CF,14,42
+266,"Alicia Bradford",28,NULL,95,64,5570,28.98,264,16,LWB,19,17
+267,"Jesus Rodgers",12,"449 East Green Hague St.",93,25,3000,63.29,67,23,RM,17,19
+268,"Perry Gross",25,"342 North Green Hague Freeway",72,5,669,39.78,15,18,WB,14,17
+269,"Alana Roberts",21,NULL,66,1,8836,32.41,21,20,GK,14,21
+270,"Jonathan Griffith",27,"61 South White Second Blvd.",2,71,5689,32.24,317,24,CB,1,28
+271,"Gregg Mckinney",13,"197 West Green Second Avenue",98,96,562,3.08,349,42,D,18,37
+272,"Jamie Glover",20,"32 East Green Fabien Drive",39,20,6936,57.58,254,22,WB,16,44
+273,"Gabrielle Nguyen",17,"415 East White Hague Way",26,74,2699,77.34,74,33,WB,14,5
+274,"Alison Wilcox",11,"46 South White New Drive",34,72,5328,95.96,342,11,AM,9,18
+275,"Allan Galloway",27,"966 West Green Second Parkway",79,79,7405,80.38,302,37,SS,15,35
+276,"Rolando Villanueva",15,NULL,24,23,2253,24.26,87,10,LB,4,9
+277,"Pamela Ewing",21,"82 North Green Fabien Boulevard",69,72,5948,67.44,313,40,AML,15,43
+278,"Kathleen Duncan",10,NULL,39,61,8480,16.64,118,26,DM,1,9
+279,"Rex Conley",22,"41 West White Old Road",95,34,1694,56.89,202,44,LW,2,2
+280,"Bridgett Foster",22,"354 East Green Milton Drive",28,88,614,66.84,283,15,M,2,6
+281,"Gabriel Mc Mahon",14,"468 South White Second Way",2,31,3772,71.15,86,25,D,18,20
+282,"Darryl Hays",12,"155 West Green Milton Freeway",88,35,8743,42.80,294,9,M,5,29
+283,"Donnell Anderson",15,"50 West Rocky Oak Blvd.",19,66,2020,69.90,45,29,GK,12,2
+284,"Bernard Buchanan",18,"641 North White Clarendon Street",70,92,2463,48.57,229,39,GK,7,22
+285,"Harold Rush",13,"51 South Green Milton Drive",94,8,6220,81.42,191,30,M,6,0
+286,"Nichole Keith",19,"766 North Green Nobel Avenue",25,87,8953,61.54,302,19,D,2,13
+287,"Devon Dawson",27,"348 South Green Oak Freeway",89,90,7993,88.51,369,46,AML,18,47
+288,"Shelia Kramer",12,"33 East Green Milton Drive",63,22,4205,5.41,396,28,DM,8,17
+289,"Jodi Pena",26,"782 South Rocky Clarendon Way",29,36,1239,21.29,240,33,SS,10,45
+290,"Justin Zamora",16,"593 West Rocky Nobel Avenue",79,4,2825,55.06,306,0,WB,10,36
+291,"Gerardo Thompson",27,"60 South Green Second Road",60,6,6186,14.40,174,44,LCB,19,13
+292,"Bryant Castillo",22,"410 East Green Hague Way",79,65,732,93.08,93,4,AML,7,33
+293,"Isabel Bernard",13,"21 South Rocky Milton Parkway",12,60,1210,61.74,27,27,LB,11,1
+294,"Troy Hamilton",14,"50 South Green Milton Way",35,37,2824,33.13,175,22,AML,8,26
+295,"Nakia Bauer",29,"611 South Green Second Freeway",77,41,4669,15.07,127,47,D,13,42
+296,"Dylan Mercado",28,"47 West Green Fabien Blvd.",17,71,785,62.39,137,44,WB,16,25
+297,"Cecil Clay",18,"456 West Rocky Nobel Way",1,43,1214,56.24,293,8,AMR,6,23
+298,"Todd Patterson",17,"635 North Rocky Hague St.",1,95,1123,6.59,310,35,M,16,27
+299,"Darlene Duarte",23,"347 North Green Hague Drive",4,26,5185,79.69,379,8,M,14,43
+300,"Jake Tapia",15,"773 North Green Second Boulevard",79,5,2631,53.95,323,3,RB,11,40
+301,"Devin Walls",17,"38 North Green Cowley Way",11,39,4821,81.40,101,27,GK,19,20
+302,"Alisha Warren",10,"778 North White Nobel Road",55,14,3452,96.07,361,24,CM,6,12
+303,"Joseph Carey",16,"835 West Green Nobel Way",7,85,4450,27.84,85,0,M,8,18
+304,"Chrystal Chapman",14,"793 West Green Milton Road",72,14,7970,30.21,161,41,LM,19,4
+305,"Claudia Stephens",16,"656 North Green Milton Boulevard",30,12,5708,46.06,248,22,AML,15,47
+306,"Jared Arnold",11,"57 West White Second Road",11,77,6802,42.54,319,23,LWB,2,24
+307,"Rudy Schultz",21,"57 North Green Milton Road",37,33,3994,40.39,91,9,D,5,4
+308,"Monique Chambers",12,"675 North Rocky Oak Drive",80,76,8206,85.39,246,28,CDM,13,20
+309,"Gena Frazier",29,"941 North White Clarendon Avenue",51,60,2978,41.96,355,49,M,15,12
+310,"Rhonda Powell",23,NULL,26,85,487,64.86,264,13,RB,1,3
+311,"Hannah Cowan",25,"66 North Green First Road",17,39,6382,92.79,31,15,WB,16,49
+312,"Spencer Berry",20,NULL,60,45,8215,75.24,398,42,SW,2,19
+313,"Shane Haley",14,"686 North Green First Boulevard",1,97,681,4.21,350,42,M,18,37
+314,"Nakia Mc Lean",22,"855 West Green Cowley Parkway",14,22,8778,5.70,187,27,M,7,39
+315,"Isabel Curry",14,"748 North Green Hague Way",50,5,3712,95.10,280,12,WB,3,44
+316,"Claude Middleton",10,"25 North Green Clarendon St.",58,84,538,31.76,250,44,LB,7,33
+317,"Preston Morton",27,"50 East Green Milton Street",83,67,1639,1.44,70,0,DM,6,25
+318,"Maribel Mays",17,"89 South Green Oak St.",87,46,6425,29.50,87,40,WB,12,27
+319,"Aaron Bell",16,"32 North Green Second Freeway",46,98,3741,93.00,223,4,M,0,32
+320,"Lori Pace",21,NULL,29,57,6466,0.50,175,36,CF,3,29
+321,"Yesenia Velez",17,"740 North Rocky Second Road",85,77,378,94.46,205,21,GK,12,8
+322,"Ray Barr",25,"85 North Green Milton Avenue",54,84,8668,25.42,289,0,WB,8,44
+323,"Iris Duffy",24,"865 North Green New Road",33,93,1102,71.99,300,17,DM,2,8
+324,"Jeannette Griffith",21,"710 South White Milton Freeway",51,49,4860,52.04,181,21,M,9,19
+325,"Rhonda Sims",25,"24 South Green First Parkway",5,8,8625,0.00,83,12,D,3,18
+326,"Lillian Hoover",13,"72 North Rocky Oak Drive",56,29,973,82.76,190,10,M,14,19
+327,"Lorraine Tapia",12,"685 South Green Nobel Street",20,87,7629,51.77,359,28,WB,4,29
+328,"Tiffany Ritter",29,"440 North Green Clarendon Road",28,99,7643,55.97,58,43,D,8,0
+329,"Bradford Rollins",10,"27 South Green Cowley Way",90,71,2598,9.81,60,48,GK,6,19
+330,"Samuel Garrett",15,"24 South Green Fabien Blvd.",45,31,6614,58.86,357,37,AML,0,16
+331,"Kendall Banks",23,"66 East White Fabien Road",16,40,5940,89.85,58,19,CB,17,6
+332,"Sherrie Ruiz",13,NULL,87,67,2838,10.05,12,40,WB,4,8
+333,"Ryan Walsh",20,NULL,74,45,3040,4.21,226,13,RM,17,19
+334,"Yvonne Best",26,"338 North Green New Boulevard",47,24,8392,69.69,224,16,M,15,32
+335,"Monique Cohen",22,"62 South Green Milton Freeway",85,73,1066,98.08,140,11,D,9,42
+336,"Edith Johnston",20,NULL,19,97,5683,40.69,123,4,CAM,10,21
+337,"Angelia Booth",15,"918 East Green Second Freeway",81,74,8760,88.88,207,22,AM,11,10
+338,"Tonya Hawkins",26,"31 North Green Cowley Freeway",95,32,2246,60.33,163,38,CB,0,42
+339,"Kent Koch",24,"47 East Green Second Boulevard",32,41,1115,21.80,280,39,RCB,12,4
+340,"Dennis Yang",26,"914 South Rocky Hague Way",39,99,1861,79.37,310,18,D,3,7
+341,"Anthony Navarro",18,"83 North Green Oak Drive",18,13,2267,21.17,9,49,AML,1,43
+342,"Toni Gallegos",21,"52 West Rocky Second Way",57,7,5225,7.89,229,3,D,1,28
+343,"Lloyd Mckee",20,NULL,1,41,1641,58.74,259,2,RB,4,14
+344,"Rene Vincent",18,"64 West Green Second Street",31,63,6099,98.61,235,45,LB,5,43
+345,"Peter Lawson",12,"217 East Green Second Way",10,92,3902,26.14,166,12,AMR,11,36
+346,"Shirley Duke",17,"62 West Rocky Oak Boulevard",38,71,6339,4.12,291,3,RB,7,3
+347,"Rodney Beck",16,"72 North White Nobel St.",94,6,6667,84.13,157,25,GK,5,41
+348,"Yolanda Price",17,NULL,37,87,3438,87.09,147,43,D,17,17
+349,"Russell Valenzuela",23,"35 North Rocky Oak St.",62,61,5814,62.82,230,28,AML,11,26
+350,"Elton Johns",20,"826 North White Fabien Street",73,76,6069,69.85,344,44,LM,16,49
+351,"Sharon Browning",21,"839 South Green Nobel Way",54,37,8048,71.36,341,34,WB,0,7
+352,"Joan Hood",29,NULL,23,43,7301,1.96,25,13,RB,17,44
+353,"Telly Montes",27,"62 West Green Oak Freeway",22,78,985,66.01,181,0,M,17,34
+354,"Joanna Fitzgerald",26,"648 West White Cowley Road",25,48,6928,0.91,82,22,M,19,8
+355,"Wendy Walsh",21,"73 South White Old Freeway",24,1,6206,46.17,139,6,CF,11,22
+356,"Adrian Nielsen",18,"226 East Green Hague Way",46,96,4048,94.65,194,49,M,19,25
+357,"Devon Waters",28,"626 West Green Nobel Drive",95,30,2492,61.31,132,33,M,19,35
+358,"Jocelyn Ware",28,"61 North White First Boulevard",42,50,2300,33.45,299,41,D,13,3
+359,"Warren Monroe",16,"486 South White Milton Way",3,30,4064,73.02,67,22,WB,17,15
+360,"Michele Parsons",22,"936 North Green Fabien Avenue",20,62,3128,76.51,359,16,M,9,30
+361,"Randy Stanton",22,"60 East Rocky Old Way",39,85,4148,91.66,100,35,SW,15,5
+362,"William Skinner",22,"512 North Rocky New Avenue",83,87,6937,79.71,390,0,M,18,5
+363,"Ted Foster",12,"671 North Green Oak Freeway",49,72,407,26.87,161,31,AML,3,15
+364,"Heath Buck",22,"511 North Rocky Hague Drive",51,16,2041,86.30,38,37,WB,9,33
+365,"Ronda Chavez",14,"897 North White New Road",66,74,4700,59.09,387,2,RB,17,13
+366,"Clarence Hood",16,"52 North Green Milton Way",48,83,6919,12.30,360,12,AML,10,16
+367,"Ramona Galloway",21,NULL,33,62,6788,4.24,194,38,D,3,32
+368,"Judith Terry",27,"87 South Green New Street",43,69,8327,17.99,185,36,LB,4,24
+369,"Sheila Atkinson",16,"749 South Green Hague St.",30,96,8768,62.98,378,30,DM,5,29
+370,"Lorraine Shepard",17,"41 West Green Milton Road",42,59,586,23.96,50,15,LCB,18,41
+371,"Allison Moyer",17,"502 North Rocky New Freeway",6,83,4511,27.80,71,47,WB,7,14
+372,"Pamela Booker",18,"843 North Rocky Milton Road",4,80,4441,26.29,50,44,D,7,10
+373,"Ernest Young",26,"271 South Green New Way",23,12,3807,32.18,334,36,WB,18,22
+374,"Tameka Ferguson",14,"722 South Green Hague Way",70,95,1918,45.44,275,46,LB,8,33
+375,"Dale Fuentes",21,"23 South Green Milton Avenue",90,62,4216,18.68,315,25,DM,1,33
+376,"Clyde Mccann",29,"363 East Green Hague Way",50,9,2955,90.67,341,22,GK,5,10
+377,"Tracy Wheeler",21,NULL,13,88,5473,36.24,62,45,SW,7,9
+378,"Cecilia Palmer",25,"861 North Green Milton St.",31,90,1137,71.24,274,13,AML,1,2
+379,"Celeste Lynn",24,"93 North Green Old Boulevard",80,32,7047,29.53,349,19,ST,7,46
+380,"Darius Watkins",11,"907 North Rocky Oak Road",42,98,2744,85.47,262,10,D,1,44
+381,"Sherman Cochran",19,"34 South Green New Boulevard",90,64,3887,16.84,344,29,D,2,40
+382,"Eileen Wilcox",29,"23 East Green Fabien Boulevard",15,17,831,11.77,100,13,M,4,17
+383,"Jesus Rowland",21,"333 West Green Second Drive",44,75,7453,13.58,272,49,DM,7,45
+384,"Sandy Simpson",15,"36 East Green Milton Drive",35,52,8913,16.77,25,12,GK,17,39
+385,"Allen Bridges",15,"836 South Green Old Freeway",76,51,2484,2.22,301,25,GK,0,36
+386,"Frank Velazquez",22,"679 South Green First Way",79,16,732,43.69,96,30,M,17,34
+387,"Miriam Contreras",17,"813 North White Nobel Freeway",66,4,8181,28.63,75,28,LCB,16,35
+388,"Tyrone Moses",19,"71 South Green Milton Parkway",75,80,6061,71.08,376,49,LM,17,5
+389,"Lillian Mullins",11,"77 South Green Second Avenue",35,22,5315,46.46,345,37,SW,19,18
+390,"Wanda Neal",15,"71 North Green New Way",41,10,389,72.21,63,42,DM,9,45
+391,"Danny Mendoza",16,"993 North Green Hague Freeway",51,4,4141,97.94,254,8,RM,2,37
+392,"Omar Blanchard",23,"338 South Green Cowley Road",83,69,1093,97.11,111,6,D,8,35
+393,"Shad Landry",28,"417 North White New Street",83,66,1900,2.82,46,46,WB,5,19
+394,"Erik Escobar",24,NULL,20,94,6392,45.01,70,46,CDM,8,7
+395,"Sally Snow",12,"30 North Green Fabien Drive",50,90,6423,10.90,36,24,LCB,13,33
+396,"Israel Bartlett",27,"61 South Rocky Second Freeway",9,28,6207,87.92,351,3,AMR,13,33
+397,"Krystal Ponce",21,"48 North Green Nobel Drive",38,52,979,24.54,377,4,DM,16,24
+398,"Aaron Mahoney",28,"22 East Rocky Fabien Drive",45,4,2422,85.28,328,20,M,4,9
+399,"Molly Weaver",25,"28 West White First Road",76,76,6912,75.95,305,38,AML,15,37
+400,"Kurt Roman",18,NULL,75,31,5870,20.34,388,26,RB,8,9
+401,"Francisco Duke",24,"588 East Green Old Avenue",11,99,2832,20.71,272,28,AMR,15,13
+402,"Bridget Mays",10,"228 North Green Oak St.",72,0,1434,43.79,342,6,M,11,49
+403,"Cheryl Davenport",14,"566 West Green Hague Parkway",31,82,2599,79.40,147,44,M,17,21
+404,"Donnell Hull",26,"618 North Rocky New Blvd.",19,8,3573,29.07,310,33,LWB,17,18
+405,"Bethany Gould",22,"540 South White Cowley Drive",5,29,5104,80.00,5,12,DM,15,48
+406,"Johanna Dudley",21,"23 East Rocky Hague Freeway",46,61,1429,30.74,27,11,RB,18,33
+407,"Edward Maynard",29,"70 West White New Street",50,92,5938,8.15,77,30,CF,15,44
+408,"Erin Sheppard",13,"815 East White Hague Road",56,64,3886,49.66,340,46,AMR,15,6
+409,"Arturo Roth",11,"334 East Green Hague Freeway",22,91,7488,52.13,399,34,RB,6,38
+410,"Keisha Schaefer",22,"39 South Green Cowley Freeway",1,57,7860,43.55,108,41,AML,14,26
+411,"Mathew Mahoney",23,"64 North Green Second Blvd.",55,19,2302,89.45,56,39,GK,9,36
+412,"Harvey Prince",29,NULL,48,23,8893,72.99,193,11,GK,14,23
+413,"Dominick Keith",14,"821 North White Nobel St.",70,44,1946,95.09,272,21,DM,18,32
+414,"Chastity Walls",13,"65 West Rocky Milton Drive",98,63,6477,35.52,221,9,CF,18,5
+415,"Ruby Hart",13,"516 North White Nobel Way",87,0,5892,76.28,139,23,CB,4,40
+416,"Samuel Olsen",11,"877 North Rocky Hague St.",51,8,3378,93.64,319,18,CM,4,4
+417,"Isaac Flynn",20,"54 North White First Boulevard",17,27,8603,6.15,237,34,M,9,0
+418,"Jody Pugh",27,"506 South White New Avenue",31,71,4492,89.52,372,16,CF,10,27
+419,"Howard Snyder",13,NULL,94,41,255,48.66,323,13,SS,6,33
+420,"Arlene Gregory",17,"797 West White Second Drive",51,71,1241,32.56,113,23,CAM,1,2
+421,"Jolene Roberts",26,"685 North Green Fabien Parkway",73,56,868,90.87,9,42,GK,4,15
+422,"Alfredo Riddle",14,"89 North Rocky Milton St.",43,80,6336,6.90,359,13,WB,10,17
+423,"Karrie Welch",29,"18 North White Hague Drive",1,17,5883,81.95,279,43,GK,10,19
+424,"Loretta Drake",28,"58 South Green New Drive",77,41,4499,13.83,135,48,GK,13,44
+425,"Alfredo Pollard",19,"735 East Green Clarendon Road",57,25,1840,88.04,125,49,AMR,12,2
+426,"Guillermo Shields",21,"611 South Green Second Street",84,90,6891,80.28,14,4,SW,19,10
+427,"Angelina Cisneros",24,"54 West White First Way",34,76,4273,89.72,25,24,GK,12,39
+428,"Jesus Santana",19,"426 South Rocky Old Boulevard",7,32,4866,79.43,44,18,WB,16,7
+429,"Christina Wall",15,"20 West Green Nobel Drive",29,46,8535,11.88,391,7,DM,16,33
+430,"Dewayne Bray",12,"86 West Rocky Nobel Street",28,64,5010,90.91,290,4,LM,7,8
+431,"Shelly Nichols",22,"874 East White Milton Way",54,86,8183,22.40,324,6,D,9,3
+432,"Raquel Alvarado",20,"24 South Green Hague Drive",79,67,376,91.13,125,9,ST,8,41
+433,"Yesenia Molina",18,NULL,78,84,6040,72.32,11,4,CAM,19,13
+434,"Claudia English",13,"18 North Green Fabien Road",80,92,5356,69.65,98,17,D,2,33
+435,"Bryce Burton",24,"206 West Green Cowley Freeway",10,81,5780,36.41,398,36,LB,5,44
+436,"Julia Gordon",29,"44 North White Hague Avenue",94,45,8702,45.76,375,21,AML,8,45
+437,"Leonard Maxwell",23,"915 South White Milton St.",87,25,1248,50.47,145,36,GK,19,42
+438,"Isabel Schmidt",21,"28 South Green Milton St.",5,78,5069,30.22,6,37,RCB,5,49
+439,"Ben Klein",12,"801 South Green New Way",90,37,8826,44.10,307,11,SS,6,31
+440,"Nichole Rivers",16,"988 North Green Milton Road",97,93,850,4.10,310,36,CM,16,28
+441,"Carrie Ware",15,"40 North White Hague Freeway",59,64,4448,53.95,319,42,D,14,0
+442,"Nelson Owen",14,NULL,79,72,8514,86.49,204,21,WB,11,11
+443,"Celeste Cantu",19,"23 East Rocky Hague Freeway",43,92,4051,93.17,158,44,CF,18,17
+444,"Cassie Key",10,"511 North White Hague St.",9,43,3662,74.17,184,40,GK,2,41
+445,"Javier Mccoy",14,"51 West Green Hague Drive",97,94,663,2.95,324,38,LM,17,31
+446,"Jessica Winters",12,"81 North Green Second Way",68,61,7459,75.04,161,16,WB,9,6
+447,"Joel Lyons",16,"82 East Green Milton Way",88,97,6365,78.98,99,17,CDM,3,30
+448,"Derek Mc Connell",21,"721 South Rocky Fabien Avenue",40,37,4155,42.74,112,12,AMR,6,8
+449,"Kathleen Holder",29,NULL,72,2,1301,43.40,362,10,CF,12,4
+450,"Shelley Powers",16,"77 North White Hague Boulevard",5,99,1311,9.41,336,39,RM,17,31
+451,"Janette George",17,"124 South Rocky Nobel Parkway",59,63,4643,55.08,303,39,GK,14,46
+452,"Dan Stone",28,NULL,21,75,1053,65.51,154,46,WB,16,28
+453,"Tyson Nielsen",23,"221 South Green Second St.",88,43,7395,35.51,17,29,CAM,10,9
+454,"Desiree Meyers",17,"251 North Green Milton Road",76,67,8680,85.85,152,14,WB,9,49
+455,"Tabitha Faulkner",28,"60 North Rocky Nobel Way",28,67,4387,87.41,343,12,CF,9,22
+456,"Staci Callahan",24,"667 North Rocky Hague Blvd.",14,37,5978,89.31,36,16,RM,17,2
+457,"Carrie Conner",24,"360 North Green Milton Freeway",70,87,3393,53.83,151,27,D,4,2
+458,"Sandy Foley",14,"639 South White Oak Street",46,33,6427,58.27,384,41,GK,1,22
+459,"Darrell Hernandez",18,"695 South Green Clarendon Freeway",56,8,4689,4.15,258,8,CDM,2,36
+460,"Kristi Ferrell",11,"578 West Rocky New St.",41,30,5720,51.87,386,42,M,1,25
+461,"Tammy Nolan",29,"98 North White Milton Drive",39,63,8275,15.57,138,29,SS,2,14
+462,"Jon Frey",10,NULL,90,56,5507,25.89,203,7,GK,17,5
+463,"Brooke Morales",29,"71 East Green Nobel Parkway",11,45,3580,74.39,207,43,CM,3,46
+464,"Tracy Fernandez",26,"12 South Green Nobel Road",52,63,2638,40.44,394,5,M,17,22
+465,"Mindy Gutierrez",23,"57 North Green Hague St.",57,39,8515,75.56,339,33,AML,0,5
+466,"Daryl Krueger",11,"83 North White Nobel Freeway",35,56,8402,14.28,78,20,M,19,1
+467,"Marcie Villanueva",17,NULL,96,57,7006,37.29,147,48,CDM,15,38
+468,"Grant Baxter",11,"619 North White Second Boulevard",58,33,757,82.66,235,16,GK,16,29
+469,"Tabitha Allen",20,"85 East White Hague Way",11,86,5251,34.08,59,45,LB,7,9
+470,"Valerie Ware",14,"730 South Rocky Milton Street",16,14,1651,16.92,43,4,GK,2,2
+471,"Lara Miller",14,"921 South Green Clarendon Freeway",28,95,8425,60.39,391,32,WB,6,33
+472,"Lakisha Keith",26,"66 West Green Milton Way",32,40,1358,23.38,264,37,GK,11,0
+473,"Keri Davis",11,"60 South Rocky Second Road",60,69,3883,51.34,381,2,LB,17,15
+474,"Marjorie Rubio",10,"224 West Green Nobel Freeway",48,39,6003,56.90,45,1,LM,4,37
+475,"Gabriel Benjamin",11,"385 South White New Drive",33,3,8204,61.32,63,43,RCB,9,49
+476,"Cristina Bass",26,"835 South Green Fabien Way",7,93,2889,18.98,218,20,M,13,1
+477,"Kara Potts",16,"21 West Green Milton Road",53,91,7185,16.78,10,19,GK,13,25
+478,"Karla Tyler",24,"25 North Green New Road",31,23,4035,37.36,8,47,M,1,36
+479,"Cherie Kerr",20,"55 North Green Old Way",86,60,3834,14.97,310,25,WB,1,33
+480,"Bonnie Adams",19,"675 North Green Nobel Drive",56,41,7846,71.17,381,40,CM,2,17
+481,"Eli Barr",14,"33 East Green Second Drive",4,16,6940,89.45,226,34,AM,8,4
+482,"Angel Mendoza",13,"834 West Green Hague Street",67,42,1629,91.88,265,20,LCB,18,32
+483,"Vivian Mathews",12,"605 North Green Milton Avenue",63,5,7238,21.88,121,36,WB,17,48
+484,"Cathy Keith",24,"46 East Rocky Second Drive",28,3,6869,51.53,122,3,ST,10,16
+485,"Regina Costa",22,"73 South White New Drive",21,30,65,10.55,241,35,WB,10,49
+486,"Angelia Morales",25,"656 South White Fabien Road",37,13,7585,60.10,171,9,LB,13,24
+487,"Diane Fuller",19,"95 East Rocky Nobel Drive",31,78,3296,83.00,79,33,WB,14,4
+488,"Dexter Wilkins",17,"803 North White Hague Blvd.",74,14,8656,35.22,129,35,M,18,45
+489,"Ralph Burke",14,"12 North Green Milton Boulevard",41,94,3155,87.44,218,3,AMR,0,33
+490,"Shelby Mitchell",16,"366 East Green Cowley Freeway",29,44,8780,13.18,368,3,CB,15,27
+491,"Blake Pope",19,"387 South Rocky Second Street",13,56,2104,67.14,359,17,LB,9,33
+492,"Greg Cardenas",15,"262 South Green Nobel Drive",27,43,8491,10.59,369,4,M,15,28
+493,"Bernard Holden",20,"261 West Rocky Milton Drive",29,74,3375,82.38,47,28,WB,13,47
+494,"Geoffrey Clarke",20,"79 North White Second Boulevard",68,72,5697,65.58,323,41,AM,15,46
+495,"Bridgette Melendez",17,"192 East White Milton Drive",20,66,2341,72.17,29,27,DM,12,47
+496,"Sammy Maynard",20,"86 North White Clarendon Boulevard",42,41,4066,43.44,149,18,RW,7,16
+497,"Joann Mckay",29,"88 West Green New Drive",12,81,6713,42.97,349,28,D,3,31
+498,"Richard Leonard",17,NULL,14,26,7878,0.56,262,39,RM,10,8
+499,"Martha Golden",15,"95 North Green Milton Way",62,51,7593,72.68,74,3,RM,5,37
+500,"Leticia Tapia",28,"34 West Rocky New Drive",21,25,1066,16.08,152,21,SS,6,27
+501,"Rene Zavala",29,"382 South Rocky Second Street",77,74,7619,80.54,259,30,SW,13,25
+502,"Bridgette Koch",13,"293 South Green Old Parkway",38,91,2796,83.65,206,2,WB,19,32
+503,"Jerome Stewart",27,NULL,62,57,6403,66.08,178,20,RCB,9,13
+504,"Natalie Ellis",25,"891 South White Nobel Avenue",50,46,5422,54.98,127,13,AML,7,6
+505,"Jeanne Williams",15,"45 West Green Hague Drive",8,37,4204,76.25,114,29,D,19,24
+506,"Lydia Robinson",15,"584 North Green Milton St.",68,59,7972,78.14,122,10,GK,8,45
+507,"Efrain Lowery",20,"746 North Green Old St.",79,1,3338,57.86,260,43,CDM,8,25
+508,"Kelli Harmon",26,"77 West Rocky Fabien Way",33,75,4456,90.62,6,21,AMR,11,34
+509,"Ruben Parks",15,"62 North White Oak Street",7,86,4279,26.92,101,2,DM,9,21
+510,"Lisa Cortez",17,"423 North Rocky Nobel Street",10,71,7636,46.64,233,10,AM,19,3
+511,"Ramon O'Neill",17,NULL,4,14,7388,92.11,191,29,GK,7,45
+512,"Candy Garcia",19,"15 East Green Milton Blvd.",79,2,3200,57.20,275,45,M,9,28
+513,"Maribel Barnes",16,"372 South Green Nobel Drive",79,54,2705,4.92,318,27,M,0,39
+514,"Cecil Franklin",14,"551 North Rocky Old Freeway",74,83,5122,65.15,41,9,GK,0,22
+515,"Bernard Graves",14,"70 North Green Milton Avenue",30,81,2545,78.64,140,43,CB,16,19
+516,"Rhonda Gaines",21,"782 North Rocky Hague Way",4,61,8012,46.07,136,45,CDM,15,32
+517,"Rudy Ayala",20,"417 North Rocky Milton Road",34,14,6681,53.76,218,17,CAM,14,37
+518,"Faith Humphrey",17,"71 South Rocky Milton Street",36,19,6267,52.50,280,26,GK,17,1
+519,"Latasha House",14,"31 East White New St.",14,62,1517,64.90,36,28,CDM,12,1
+520,"Sheila Terrell",16,"280 East Rocky Second Street",53,7,4228,0.39,269,10,GK,2,40
+521,"Lea Avery",23,"84 North Green New Street",31,42,879,20.38,298,42,D,12,8
+522,"Beth Simpson",15,"478 West Rocky Cowley St.",76,68,8479,84.73,169,16,RB,10,3
+523,"Sergio Davila",23,"326 North Green Oak St.",53,17,2147,87.60,46,38,WB,9,35
+524,"Christa Gonzalez",28,"871 South Rocky Cowley Blvd.",87,88,8025,87.98,349,43,D,17,43
+525,"Autumn Macias",25,"290 East Green Clarendon Road",36,63,7539,10.15,170,34,GK,3,24
+526,"Leo Berg",11,"773 West Green Second Street",92,7,5815,77.96,197,31,DM,7,2
+527,"Jasmine O'Connell",10,"31 North White Fabien Way",35,7,8254,63.04,93,47,SS,10,5
+528,"Lesley Cummings",22,"871 North Green Milton Street",97,21,4816,75.47,359,6,AMR,13,40
+529,"Chris Spears",16,"15 South Green Fabien Freeway",48,17,968,78.97,99,46,LCB,11,0
+530,"Gordon Black",13,NULL,64,89,1368,39.45,252,43,LM,7,30
+531,"Heidi Beck",29,"786 South Green Fabien Freeway",55,32,284,78.67,243,18,D,16,33
+532,"Benny Lawson",26,"546 South Green Nobel Street",82,32,7520,32.97,327,15,GK,6,40
+533,"Eugene Valencia",20,"720 East Green Milton St.",42,6,1185,76.97,2,32,WB,7,29
+534,"Clint Green",14,"485 North Rocky Nobel Road",80,74,8489,86.98,221,24,RWB,12,14
+535,"Brady Mahoney",26,"763 North White Cowley Road",80,30,7398,31.40,317,14,WB,5,38
+536,"Marcie Berg",13,"423 South Green New Parkway",38,92,2748,83.56,214,3,AML,19,34
+537,"Denise Hawkins",28,"35 South Rocky Hague Road",83,66,1814,2.40,54,47,ST,6,21
+538,"Gretchen May",12,"814 North Rocky Nobel Freeway",59,67,3892,50.96,370,0,WB,16,12
+539,"Angel Thomas",28,NULL,42,17,8327,66.83,169,8,RCB,13,21
+540,"Ashley Mejia",19,"971 South Green First Drive",2,93,1512,8.99,281,31,CF,15,19
+541,"Trenton Ortega",27,"368 South White Old Freeway",52,13,2722,90.38,385,28,WB,7,20
+542,"Travis Montoya",21,"36 West Rocky New Drive",13,5,2486,20.11,334,38,GK,18,27
+543,"Bart Mckee",23,"762 South Rocky Milton Avenue",93,82,1645,6.20,184,17,RM,11,49
+544,"Naomi Franklin",24,"59 West Rocky Cowley Way",70,4,377,37.21,18,18,RW,14,19
+545,"Donnie Barker",24,"914 North Green Hague Freeway",1,71,5281,29.47,340,28,LW,2,34
+546,"Levi Allison",19,NULL,40,56,854,24.87,12,9,GK,17,32
+547,"Lawrence Wilcox",26,"375 West Rocky Hague Drive",89,9,4872,71.74,256,41,WB,9,18
+548,"Bret Dudley",19,"64 North Green Nobel St.",76,65,46,87.88,120,9,M,8,41
+549,"Marlon Harvey",13,"31 North Green Milton Freeway",18,84,7626,50.68,333,24,RB,3,24
+550,"Sammy Roman",29,NULL,79,94,4680,65.48,147,25,GK,4,46
+551,"Becky Cooke",28,"367 South Rocky New Road",8,9,190,4.60,69,9,AML,2,13
+552,"Evan Rogers",11,NULL,19,37,7275,98.75,377,6,DM,15,34
+553,"Shonda Rich",14,"86 South White New Freeway",18,34,7712,1.87,331,49,SW,13,23
+554,"Andy Fields",12,"47 South Green Cowley Avenue",28,63,5019,90.89,288,4,RCB,7,8
+555,"Cynthia Dickson",19,"441 North Green Hague Blvd.",33,63,6403,2.05,226,43,WB,5,40
+556,"Nancy Rojas",15,"62 South Green Fabien Blvd.",78,70,8644,86.77,182,18,CAM,10,5
+557,"Timothy Davidson",15,"24 East Green Milton Avenue",29,96,8525,61.41,394,32,CB,6,33
+558,"Nick Mooney",23,"448 South Rocky Hague Freeway",70,88,3287,53.38,163,29,M,4,5
+559,"Shirley Carrillo",25,"27 North Green Milton Drive",63,94,182,32.61,350,9,GK,11,5
+560,"Rusty Hickman",28,"33 North Green Fabien Way",40,14,8177,64.91,156,6,DM,12,18
+561,"Jimmie Jacobson",21,"26 East Green Old Parkway",42,39,4295,44.63,127,14,RB,6,10
+562,"Shawn Dalton",12,NULL,92,56,6013,29.72,184,4,GK,16,49
+563,"Rodolfo Herrera",20,"84 East Green Milton Freeway",16,76,8560,54.88,227,8,D,19,49
+564,"Angelique Walters",19,"395 West Green Second Parkway",58,10,4990,7.18,265,9,CF,2,36
+565,"Caroline Fry",22,"68 North White Oak Freeway",4,60,8185,47.03,121,43,AML,14,28
+566,"Antoine Blanchard",23,"563 East Green Fabien Parkway",95,84,1884,8.84,195,18,M,12,0
+567,"Brian Huffman",13,"819 North Rocky Second Freeway",91,87,108,95.56,292,34,LM,15,27
+568,"Jeremy Carroll",26,"357 East Green Milton Road",44,71,8184,17.72,210,39,DM,5,30
+569,"Arlene Fisher",28,"319 South White Nobel Way",61,39,474,82.53,295,25,AML,19,43
+570,"Derick Allen",27,"848 East Green Milton Freeway",79,78,7396,80.18,300,36,M,15,35
+571,"Glen Stone",22,"318 West Green Milton Freeway",38,84,4213,91.81,89,34,M,15,3
+572,"Jarrod Barber",29,NULL,66,11,6955,21.94,186,45,M,0,13
+573,"Shelby Robertson",21,"774 South Green Second Drive",70,23,5940,18.31,323,16,SW,5,45
+574,"Micheal Gardner",15,"834 South Rocky Hague Freeway",28,95,8466,60.65,388,32,M,6,32
+575,"Cristina Nash",17,"737 North Green Nobel Road",38,55,410,21.22,23,11,GK,17,36
+576,"Leonardo Mc Mahon",24,NULL,55,86,8454,24.46,314,4,LM,9,0
+577,"Katrina Blake",16,"864 North Rocky Milton Road",30,45,8774,13.50,377,5,CF,15,29
+578,"Tonia Cooper",12,NULL,38,76,5675,0.77,357,13,AM,10,20
+579,"Pedro Delgado",22,"24 East Green Hague Avenue",96,52,7766,41.26,74,36,AMR,12,20
+580,"Angelica Rocha",22,"70 East Green First Road",8,82,5315,33.21,23,40,GK,6,1
+581,"Diana Vance",13,NULL,91,87,73,95.49,298,35,LCB,15,28
+582,"Ana Monroe",12,"40 South Green Hague Avenue",67,27,4443,8.62,21,32,CM,9,21
+583,"Lewis Figueroa",26,"661 East Green First Way",8,94,2909,19.62,229,22,AM,13,3
+584,"Jack Bradshaw",21,"215 West Green Hague Way",3,43,1836,60.98,270,4,LM,5,16
+585,"Eileen Blair",12,"51 South Green Cowley Way",87,67,2679,8.94,21,42,WB,5,11
+586,"Christa Mccoy",11,"60 North White Hague Freeway",19,20,1318,16.44,105,14,M,4,17
+587,"Rita Brennan",14,"414 North Rocky Milton Parkway",78,22,8405,35.95,203,46,GK,1,11
+588,"Kris Stein",11,"686 North White Hague Road",24,10,4752,38.21,270,26,M,16,5
+589,"Jay Salas",20,"112 South Rocky Nobel Avenue",71,25,5903,18.75,342,19,AM,6,49
+590,"Elena Hutchinson",28,"36 South Green Nobel Freeway",98,33,2731,64.09,146,35,LWB,0,37
+591,"Jennifer Ingram",17,"862 East White Second Way",60,64,4851,56.97,302,39,CF,14,45
+592,"Allen Warren",23,NULL,51,32,8204,70.76,292,26,LM,18,47
+593,"Traci Boyle",11,"86 North Green Hague Freeway",84,31,8435,39.29,277,7,GK,4,26
+594,"Karla Zhang",15,NULL,70,62,8034,79.39,139,12,LM,8,49
+595,"Candace Summers",27,"92 North Rocky Second Avenue",93,78,2209,9.24,133,9,CB,9,36
+596,"Andre Pineda",13,"41 North White Old Road",24,57,4988,88.59,238,46,CF,5,47
+597,"Bradford Cooper",24,"31 North White Nobel Road",41,2,1593,78.62,351,24,AMR,5,17
+598,"Morgan Wyatt",16,"69 South Green Clarendon Boulevard",88,31,358,46.04,236,0,SW,3,14
+599,"Catherine Jensen",24,"34 North Green Second Boulevard",73,40,3642,7.21,165,4,WB,14,4
+600,"Darrell George",16,"858 North White Second Way",89,83,418,96.58,248,27,GK,13,16
+601,"Tabitha Arnold",24,"71 South Green Second Avenue",95,67,4908,25.39,324,26,SS,2,32
+602,"Antonio Cain",22,"53 South Rocky Hague Parkway",50,64,1864,35.10,36,11,RCB,18,34
+603,"Dwayne Copeland",20,"735 South Green Second Drive",29,74,3336,82.18,50,29,ST,13,48
+604,"Norma Baldwin",28,"48 South Green Nobel Freeway",90,40,8153,40.32,365,20,M,8,45
+605,"Lara Clayton",10,"225 South Green Hague Drive",13,47,3904,77.25,204,42,M,3,44
+606,"Jayson Fitzgerald",28,"96 North Green Milton Parkway",41,99,2237,82.16,294,15,AMR,3,3
+607,"Sheri Swanson",13,"63 South Green Milton Avenue",50,6,3586,94.28,288,13,GK,3,46
+608,"Maurice Gentry",17,"964 East Green Hague Parkway",33,15,6183,50.55,251,22,LM,16,46
+609,"Michele Reynolds",26,"27 East White Old Avenue",56,52,5883,60.58,161,18,RB,8,11
+610,"Jim Love",20,"216 South Green Milton Parkway",22,99,5867,42.96,137,6,LW,11,23
+611,"Darrick Gray",22,NULL,62,96,8707,29.61,382,14,WB,12,14
+612,"Jackie Best",26,"773 South White Hague Road",53,99,5731,8.73,137,39,DM,17,7
+613,"Dominick Gamble",17,"732 South Rocky Second Way",55,24,1437,84.70,134,1,RWB,12,5
+614,"Kim Nolan",29,"17 North White Second Freeway",19,89,7020,47.95,2,35,WB,6,41
+615,"Marilyn Elliott",12,"864 South Green Oak Drive",47,19,193,73.86,147,4,GK,12,13
+616,"Dewayne Mc Lean",10,"88 North White Old Freeway",20,39,7232,98.92,390,8,GK,15,37
+617,"Harry Ball",23,"34 West Green Clarendon Street",56,37,8418,74.27,329,31,LB,0,4
+618,"Derick Singh",14,"84 South Green Clarendon Blvd.",14,96,4431,31.21,171,12,CF,12,36
+619,"Tania Dyer",20,"652 South Green Cowley Avenue",86,76,891,97.84,173,16,GK,10,49
+620,"Jason Moon",12,"337 West Green Milton Blvd.",88,85,8681,91.92,299,35,M,15,30
+621,"Dean Donaldson",19,"662 West White First St.",27,6,6079,46.89,185,13,DM,13,32
+622,"Karrie Sellers",22,"996 North Green Fabien St.",87,26,1193,50.44,157,38,DM,0,45
+623,"Martin Lutz",12,"15 South Green Hague Drive",58,33,877,83.43,227,15,D,16,27
+624,"Omar Sanders",11,"277 East Green New Drive",7,23,6600,89.01,290,44,GK,11,19
+625,"Dorothy Mills",25,"736 South Rocky Milton Avenue",63,11,6150,15.80,216,0,WB,1,22
+626,"Manuel Potts",11,"356 East White Second Road",70,81,4504,59.94,52,11,DM,0,27
+627,"Michelle Reid",14,"724 North Rocky Old Street",8,88,4134,26.56,125,6,RB,10,27
+628,"Ron Hanna",19,"65 North Green Milton Road",86,44,6589,29.86,59,35,SW,11,21
+629,"Cory Thomas",23,"895 South Green Clarendon Freeway",61,44,8692,78.46,370,37,M,1,11
+630,"Gustavo Murphy",13,"277 North Green Hague Drive",54,76,822,31.35,177,33,RWB,4,17
+631,"Leigh Vargas",19,"45 North Green Nobel Road",60,46,8108,74.79,11,44,GK,3,22
+632,"Gregory Perry",19,"657 West Green Second Boulevard",90,49,6921,34.01,86,39,AML,12,25
+633,"Jenifer Villarreal",12,"745 South Rocky Oak Freeway",71,64,7664,77.55,176,18,M,10,8
+634,"Lindsay Frost",27,"81 East Green Milton Blvd.",92,60,5267,25.61,250,14,WB,19,15
+635,"Shad Brewer",24,"28 South White Milton St.",25,66,3707,82.08,365,16,GK,9,29
+636,"Trisha Cook",16,"447 North Green Milton Road",17,47,4931,84.72,157,35,ST,1,31
+637,"Charlene Mays",22,NULL,7,80,5269,32.04,5,37,GK,5,48
+638,"Olivia Powers",15,"48 North Green Second Boulevard",78,4,2606,53.70,322,2,GK,11,40
+639,"Jeff Luna",12,"719 South Green New Drive",16,16,1325,15.31,76,9,CB,3,11
+640,"Jesus Proctor",18,"55 East White Second Road",13,90,5003,33.61,102,2,CDM,9,19
+641,"Kevin Daniels",10,NULL,86,68,2323,6.63,44,46,CAM,6,17
+642,"Miriam Walter",21,"21 North Green Second Freeway",71,8,51,36.06,62,25,CF,15,29
+643,"Frances Bates",19,NULL,28,41,38,14.02,331,48,M,13,18
+644,"Leticia Mann",13,NULL,53,9,3818,97.26,309,16,GK,4,0
+645,"Carla Bradshaw",18,"491 South Green Hague Road",45,62,1079,28.57,52,15,AMR,19,40
+646,"Wesley Frost",15,"534 West Green Milton Way",23,55,5154,89.00,212,42,RW,4,41
+647,"Jesse Murray",23,NULL,85,72,1203,98.74,126,8,DM,9,38
+648,"Keisha Marsh",23,"78 South Green Fabien Blvd.",2,91,2135,12.74,234,23,M,13,7
+649,"Warren Casey",14,"428 East Green First Blvd.",9,73,7166,43.88,271,16,SS,0,13
+650,"Brad Manning",16,"542 North White Hague Parkway",59,81,1513,38.12,187,34,RB,5,16
+651,"Janine Lewis",14,"87 North Green Fabien Drive",43,96,3304,89.14,226,5,WB,0,35
+652,"Arthur Molina",19,"849 East Rocky Fabien Avenue",71,9,8800,34.57,82,28,AMR,16,34
+653,"Ty Zuniga",10,NULL,73,51,1555,94.50,345,32,CDM,1,49
+654,"Scottie Garrett",16,"466 South Rocky Second Way",27,25,2645,27.88,87,10,CM,4,8
+655,"Mickey Lester",19,"772 East White Milton Street",11,88,5054,33.15,80,48,DM,8,14
+656,"Hannah Martin",17,"292 West White Hague Drive",11,39,4853,81.70,102,27,D,19,19
+657,"Russell Mack",13,"222 South Rocky Second Street",54,93,6776,14.65,49,25,AML,14,35
+658,"Juan Wiggins",14,NULL,28,78,2374,76.30,122,40,DM,15,16
+659,"Marlon Mckinney",13,"784 North White Hague Street",15,64,1419,64.76,54,31,SW,12,6
+660,"Rose Patton",22,"38 North White Nobel Way",94,67,4588,23.07,339,28,M,2,37
+661,"Anne Bridges",22,"53 South Green New Freeway",82,20,909,46.35,121,33,WB,18,38
+662,"Latonya Escobar",27,"46 North Green Fabien Blvd.",44,20,8271,67.51,198,12,WB,14,27
+663,"Grace Kirby",22,"691 North Green Cowley Way",43,23,7461,62.43,255,21,CAM,16,42
+664,"Cassandra Schneider",18,"273 West Rocky Milton Blvd.",15,60,2144,68.69,388,21,LM,10,39
+665,"Charles Finley",27,"34 North White Old Parkway",44,37,5227,50.79,69,5,M,4,45
+666,"Carla Tyler",25,"61 South Green Second St.",98,86,2245,12.10,194,17,CAM,12,48
+667,"Levi Hayden",19,"836 South Green New Road",21,32,8635,8.14,278,40,GK,11,9
+668,"Lashonda Pineda",11,"857 West White Hague Freeway",75,87,4788,63.93,85,16,WB,2,33
+669,"Grant Horn",10,NULL,92,91,8764,94.61,346,42,GK,17,39
+670,"Judith Faulkner",10,"782 South White Cowley Road",84,98,5143,70.29,161,27,LB,5,47
+671,"Tia Villegas",18,"86 East Green Milton Road",51,36,7442,66.53,358,37,GK,1,13
+672,"Jeannie Larsen",25,"28 East Green Milton Drive",65,64,6297,67.34,233,28,LB,12,25
+673,"Rickey Sullivan",11,"63 North Green Second Parkway",53,94,6499,12.89,68,28,GK,15,40
+674,"Kerry Le",15,"44 West Rocky Old Road",73,14,8329,32.97,148,38,M,19,0
+675,"Christi May",19,"692 South White Cowley St.",45,27,7163,61.69,303,29,LB,18,3
+676,"Johnathan Andersen",26,"635 North Rocky First Blvd.",42,34,4999,48.21,57,3,M,4,43
+677,"Heidi Davidson",24,"57 South White Second St.",35,78,4263,90.19,39,26,AMR,13,42
+678,"Warren Bryan",27,"81 East Green Oak Road",16,53,3546,76.62,269,2,LB,5,9
+679,"Angie Chavez",29,"816 North Green Clarendon Avenue",29,16,4713,40.11,324,34,AML,18,16
+680,"Joann Webster",28,"724 South Green Hague Drive",68,31,3888,5.85,77,41,CF,11,35
+681,"Cassie Nolan",20,"225 North White First Freeway",72,92,2994,52.44,205,35,DM,6,15
+682,"Gary Haley",10,"255 North Rocky Oak Drive",64,92,1026,37.96,292,49,GK,9,40
+683,"Charity Andrews",14,"22 South White First Road",65,89,1539,40.84,248,43,LB,7,29
+684,"Herbert Richards",13,"428 North Rocky Clarendon Road",22,22,1862,21.19,99,12,LB,4,13
+685,"Anitra Lane",10,"67 South Green Milton Road",56,98,6449,13.85,102,33,WB,16,47
+686,"Trisha Guerra",18,"478 North Green First St.",57,94,7723,21.70,9,19,SW,13,23
+687,"Marc Tate",15,"37 North White First Freeway",67,8,7880,27.45,114,34,DM,17,44
+688,"Gilberto Melton",29,"57 North Green Hague Drive",77,24,7619,30.84,254,5,GK,3,24
+689,"Patrick Wilkins",28,"457 East White First Drive",53,80,20,26.72,243,43,WB,6,33
+690,"Alisa Nichols",12,"98 West Rocky Milton Way",23,74,1749,70.53,121,41,LM,15,18
+691,"Ann Durham",20,"39 North Green Fabien Street",18,62,2644,73.02,382,19,GK,10,36
+692,"Debra Novak",27,"52 South Green Milton Boulevard",54,32,8921,75.99,259,21,WB,17,37
+693,"Jarrod Arellano",28,"599 North Green Hague Avenue",35,91,1894,77.20,250,9,AML,1,45
+694,"Duane Huerta",11,"27 North Rocky Oak Way",55,13,3593,96.87,349,22,M,5,9
+695,"Shawn Zamora",21,"46 South Green Fabien Freeway",98,6,7601,90.83,112,17,D,4,28
+696,"Janet Trujillo",28,"49 North Rocky Milton St.",52,45,5968,58.92,102,9,CM,6,49
+697,"Esteban Tyler",25,"17 South Green Oak Drive",34,10,7376,57.47,153,7,M,12,21
+698,"Virginia Richardson",11,"71 West Green First Way",20,4,4452,34.12,237,22,M,14,49
+699,"Sophia Nixon",12,"566 East Rocky New Drive",52,59,3604,46.00,314,42,M,14,2
+700,"Maurice Hanna",17,"16 South White Second Road",22,69,2384,73.29,46,29,WB,12,0
+701,"Nakia Leon",19,"29 North Rocky Clarendon St.",89,64,3839,16.39,344,29,GK,2,40
+702,"Tanya Herrera",28,"181 South Green Hague Way",6,58,52,52.63,64,34,GK,12,13
+703,"Dale Edwards",27,"283 South Rocky New Drive",90,59,5067,23.63,246,14,LB,18,16
+704,"Dianna Glover",21,"86 North Green Second Parkway",19,95,5899,41.67,99,0,M,9,15
+705,"Yvonne Farley",11,"500 North Green Second Avenue",52,10,3430,94.56,330,19,DM,5,6
+706,"Ernest Dodson",24,"536 South Green Clarendon Way",10,99,2687,19.52,275,29,D,15,14
+707,"Tonya Fowler",11,"74 North Rocky Cowley Boulevard",95,78,2978,14.66,93,2,CDM,8,25
+708,"Bryon Mc Guire",11,"94 East White Second Road",81,60,2139,2.74,390,38,M,3,6
+709,"Vanessa Cowan",15,"44 North White Hague Avenue",41,26,6354,55.49,332,34,LB,19,12
+710,"Chester Kemp",16,"401 North Green Old Drive",80,39,5783,22.51,60,36,GK,11,24
+711,"Jimmy Cantrell",19,"730 East White Hague Freeway",65,2,8331,28.86,48,24,WB,15,29
+712,"Alex Randolph",25,"685 East Green Second Way",13,84,6081,39.56,7,37,D,5,45
+713,"Chad Montoya",21,"363 North Green Second Boulevard",9,83,5295,33.45,34,41,LB,6,4
+714,"Franklin Parker",17,"753 South Rocky First Avenue",2,78,4209,23.89,43,44,D,6,10
+715,"Rosa Lamb",25,"734 North Green Clarendon Boulevard",77,78,6948,76.77,316,39,GK,15,40
+716,"Dorothy Nash",20,"210 East Rocky Second Way",82,20,612,44.36,139,36,SS,19,43
+717,"Shaun Martinez",15,"74 East White Nobel Parkway",56,11,4264,2.10,303,15,SW,4,47
+718,"Tiffany Frey",12,"444 North Rocky Clarendon Road",89,53,5726,26.55,171,2,D,15,47
+719,"Kristie Barber",28,"851 South Rocky Clarendon Drive",75,6,1342,44.89,389,13,M,13,9
+720,"Jesse Rosario",11,"52 North Green Milton Street",19,21,1351,16.94,110,14,CF,5,17
+721,"Monica Barber",19,NULL,26,72,3003,78.91,45,28,GK,13,48
+722,"Rodolfo Wolfe",27,"129 East Green First Street",95,47,8410,44.28,4,26,AM,9,3
+723,"Colleen Mccarty",24,"77 West White Hague Drive",88,41,7445,35.46,5,27,CM,9,6
+724,"Brandy Jennings",21,"206 North Green Oak Boulevard",76,47,3328,7.16,233,14,DM,17,19
+725,"Paula Suarez",14,"668 South Green Nobel Way",84,78,8844,90.81,235,26,M,13,16
+726,"Sheri Wu",17,"493 West Rocky Milton Freeway",41,91,3622,89.81,172,46,AML,18,22
+727,"Kelly Newman",15,"473 North White Milton Avenue",49,19,711,77.70,125,0,M,12,6
+728,"Courtney Carlson",28,"735 South White Milton Drive",27,66,4395,87.14,335,11,CAM,8,20
+729,"Betty Clayton",25,"38 East Rocky First Parkway",24,65,3798,82.42,354,14,M,9,26
+730,"Hector Herman",12,"233 West Green First Road",79,91,5135,67.78,102,18,WB,2,35
+731,"Chanda Hampton",26,"22 North Green New Drive",81,82,7398,81.52,331,41,DM,16,41
+732,"Latonya Novak",19,"446 East White Clarendon Freeway",79,35,6261,24.60,4,28,SW,9,11
+733,"Fernando Montes",26,"31 West White Second Street",68,49,551,86.54,375,37,RB,2,9
+734,"Loren Gay",11,"482 East White Clarendon St.",18,69,1285,65.35,98,38,CF,14,15
+735,"Alberto Christian",27,"52 North Green New Drive",97,33,2553,62.75,153,36,SW,0,39
+736,"Alana Larsen",14,"864 East White First Way",52,24,857,80.29,156,5,CB,13,12
+737,"Jose Armstrong",25,"84 West Rocky First Street",10,48,2917,70.27,255,1,GK,5,8
+738,"Jim Kerr",27,"325 North Rocky First Way",82,65,1646,0.75,52,47,AMR,6,21
+739,"Debbie Frey",27,"272 South Rocky Cowley Drive",32,73,4562,90.56,381,18,SW,10,29
+740,"Leslie Ross",26,"93 South White Hague Way",31,5,7331,55.73,121,2,GK,11,14
+741,"Latonya Hull",15,"360 South Green Nobel Road",72,30,5279,15.78,9,29,M,9,15
+742,"Latoya Barrett",22,"655 South Rocky Milton Way",76,96,3523,57.55,212,35,DM,6,14
+743,"Alexis Conway",26,"809 South Green First Drive",42,2,1967,81.33,334,21,AML,4,12
+744,"Darnell Ho",19,"49 South White Hague Avenue",16,27,8366,4.50,249,37,RB,10,4
+745,"Rocky Valenzuela",14,"265 South White Second Drive",32,17,5512,46.05,291,29,AML,17,6
+746,"Darlene Pugh",14,NULL,35,70,5781,98.74,309,6,LM,8,9
+747,"Randolph Santiago",11,"41 South Rocky Cowley Drive",6,4,592,5.78,8,0,AML,0,49
+748,"Patrice Kelly",16,NULL,59,97,7635,22.09,38,23,SW,14,29
+749,"Lamont Harmon",12,"67 West Rocky New Parkway",90,3,5898,77.40,165,27,DM,5,46
+750,"Bobby Haas",11,"37 East Green Old Freeway",27,63,4855,89.63,293,5,AMR,7,9
+751,"Chester Neal",10,"187 North White New St.",97,98,8952,98.10,388,48,LW,19,47
+752,"Ira Levy",29,"38 East Rocky Second Street",71,17,7191,25.41,217,0,DM,1,18
+753,"Gary Whitaker",29,"831 North Green Hague Freeway",77,8,1565,47.37,0,15,LM,13,10
+754,"Richard Duncan",22,"72 West Green Milton Drive",77,47,3589,9.02,221,12,WB,17,16
+755,"Lloyd Hodge",17,"26 East Rocky Nobel Road",21,2,5329,39.77,179,12,LB,12,34
+756,"Lawanda Gibbs",20,"58 North Green Nobel Road",61,63,5267,59.73,277,35,LB,13,38
+757,"Curtis Boyer",11,"429 South Green Second Freeway",95,11,6088,81.41,220,34,DM,8,6
+758,"Kathleen Wiggins",13,"86 North Rocky Fabien Freeway",49,38,6447,59.96,20,47,RM,3,30
+759,"Kristian Melendez",27,"530 North White Second Road",36,77,4855,94.04,0,20,WB,11,32
+760,"Elena Hoffman",13,"24 South Green Second Road",17,34,7497,0.21,339,0,LM,13,26
+761,"Leon Ferguson",24,"236 North Green First Road",95,16,4945,74.79,314,49,ST,11,30
+762,"Glenn Koch",13,"53 North Green Second Avenue",25,43,7978,6.87,393,8,GK,16,35
+763,"Janelle Camacho",25,"976 North Rocky Milton Way",3,56,8478,47.73,72,36,LCB,12,17
+764,"Ramon Cabrera",28,"325 West White Hague Boulevard",34,74,4823,92.95,381,17,LM,11,28
+765,"Tricia Cisneros",14,"964 East White Oak Freeway",67,58,7709,75.93,127,11,AML,8,48
+766,"Janette Perez",22,"77 North Green Cowley Way",67,69,5917,66.24,290,36,WB,14,38
+767,"Jodi Fritz",20,"579 South Green Cowley Street",1,91,1638,9.15,257,27,CAM,14,14
+768,"Erik Francis",22,"625 South Green Second Road",43,73,7437,12.86,258,47,SS,6,43
+769,"Kevin Ford",24,"42 South White Hague Blvd.",63,95,8973,31.25,363,11,LM,11,9
+770,"Grace Hendricks",16,"811 South Rocky Nobel Drive",68,24,5156,13.03,370,24,CM,7,8
+771,"Jon Andersen",23,"53 East Green Second Blvd.",34,44,1117,22.97,308,43,DM,13,10
+772,"Todd Ibarra",12,"69 North Green Hague Street",27,12,4940,40.47,283,28,CB,16,7
+773,"Stephanie Vaughn",21,"50 South Green First Way",91,97,7225,85.27,61,10,DM,1,19
+774,"Allen Jefferson",22,"713 West Rocky Fabien Parkway",83,54,3925,13.82,262,18,D,19,23
+775,"James Henson",26,"49 East Green Second Boulevard",50,78,8551,22.46,244,44,DM,6,35
+776,"Freddie Santiago",16,"704 West Green Fabien Freeway",91,69,3535,15.79,397,37,CB,4,3
+777,"Victor Scott",16,"204 North White Fabien St.",53,73,1134,32.72,141,27,SS,2,8
+778,"Joy Turner",17,"226 North Green Oak Street",80,38,5909,23.01,44,34,D,10,20
+779,"Dina Dillon",11,"72 South White Nobel Way",91,56,5736,27.57,193,6,GK,16,2
+780,"Jeff Benson",27,"88 North Green Milton Way",14,18,461,9.41,125,17,CB,5,24
+781,"Malcolm Bradford",10,"43 North Rocky Second Freeway",30,84,1917,74.78,186,0,AML,18,31
+782,"Elizabeth Farley",10,NULL,27,30,1708,22.73,171,23,GK,7,29
+783,"Vanessa Clayton",29,"54 South White Milton Street",67,96,1023,39.34,326,4,GK,10,47
+784,"Holly Burch",21,"712 North White Hague Boulevard",38,1,1096,74.62,365,27,AML,5,22
+785,"Clint Hubbard",17,"866 North Rocky Nobel Blvd.",60,31,1807,89.64,171,6,GK,14,12
+786,"Mary Myers",28,"88 South Green Milton Way",54,48,5995,59.99,121,12,LCB,7,3
+787,"Janice Eaton",12,"46 North White Cowley St.",7,39,3738,73.49,150,35,AML,0,34
+788,"Grace Hickman",28,"18 South Green Second Way",87,20,2081,55.02,71,25,GK,17,23
+789,"Meredith Stevenson",21,"67 North Green Fabien Freeway",4,11,7912,94.95,143,21,D,5,33
+790,"Kendall Montoya",27,"25 East White Milton Way",87,71,1964,5.07,86,2,DM,7,27
+791,"Jolene Copeland",23,"494 South Rocky Nobel Road",29,6,6826,52.18,148,6,WB,12,22
+792,"Troy Cortez",16,"19 South Green Oak Road",11,56,1613,63.48,380,20,DM,9,39
+793,"Alonzo Avery",23,"35 West Green Hague St.",83,3,4146,64.45,241,39,LB,8,18
+794,"Elaine Osborn",24,"933 East White First Blvd.",83,3,4185,64.79,240,39,AMR,8,17
+795,"Marisol Hurst",19,"67 North Green Old Boulevard",69,40,2604,98.62,212,11,GK,16,17
+796,"Tracey Kennedy",22,"305 North Rocky Second Way",27,54,6564,0.18,145,31,WB,1,22
+797,"Darryl Turner",27,"77 South Rocky First Freeway",28,68,4265,86.87,358,14,M,9,25
+798,"Jane Donaldson",16,"833 West Green Second Road",45,13,754,76.02,75,43,SW,10,46
+799,"Kenneth Zimmerman",15,"76 North Green Milton Freeway",50,4,3844,95.68,265,10,DM,2,40
+800,"Kate Harding",25,"14 East Green New Street",17,73,386,59.94,167,49,GK,17,33
+801,"Shelley Hodge",20,"456 South Rocky Hague Drive",81,20,488,43.27,140,36,LCB,19,44
+802,"Rebecca Woodward",21,"548 South White First Way",82,4,3751,61.90,266,43,WB,9,25
+803,"Roland Baird",15,"26 South Green New St.",5,0,1155,8.62,352,41,RB,18,35
+804,"Anthony Lane",10,NULL,96,63,5891,31.13,245,13,DM,19,12
+805,"Marci Velasquez",18,"53 North Rocky Second Street",5,64,7598,44.15,181,2,CAM,17,43
+806,"Owen Hardy",11,"686 East Rocky Second Way",83,46,5326,21.44,136,48,RB,14,41
+807,"Jocelyn Swanson",18,"687 North White Hague Boulevard",44,61,1008,27.64,45,14,CF,18,39
+808,"Morgan Clark",29,"31 North Rocky Nobel Drive",49,58,2835,39.94,338,46,WB,15,9
+809,"Valerie Gallagher",15,"874 East Green Fabien Boulevard",51,5,3921,96.59,269,10,GK,2,41
+810,"Tamiko Rios",21,"486 North Rocky First Parkway",78,83,6420,74.63,382,49,GK,18,5
+811,"Stacey Best",14,"625 South White Second Road",49,20,608,77.29,138,2,WB,12,9
+812,"Lorena Higgins",17,"57 East White Milton Freeway",78,19,8918,38.78,158,39,RM,19,49
+813,"Becky English",17,"367 South Rocky Hague Way",48,32,7069,62.68,348,35,AM,0,13
+814,"Clifford Vance",23,"35 South Green Second Drive",81,34,7023,29.93,364,21,GK,7,49
+815,"Samuel Bond",15,"575 West Green Second Freeway",55,27,1203,83.87,165,6,RM,14,13
+816,"Nancy Hendricks",12,"271 South Rocky Milton St.",64,56,7229,71.80,134,12,GK,8,1
+817,"Antoine Villarreal",12,"824 North Rocky Hague Road",92,73,2891,12.41,58,47,D,6,18
+818,"Christina Davies",18,"46 North Rocky Second Boulevard",47,14,1086,78.89,71,42,DM,10,44
+819,"Karl Walter",23,"76 South White Second Drive",38,33,4364,43.02,73,6,LM,4,49
+820,"Chastity Blackwell",16,"565 North Rocky Milton Road",41,26,6411,55.80,327,33,WB,19,11
+821,"Julian Aguirre",14,"22 West Rocky Cowley Road",15,97,4643,33.08,169,12,AML,12,34
+822,"Eduardo Padilla",22,NULL,13,54,2687,70.74,317,10,M,7,22
+823,"Amber Shea",29,"76 North Green First Blvd.",55,99,6233,12.51,118,36,WB,17,1
+824,"Andre Cantrell",16,"664 South Green Second Way",80,6,2794,55.52,324,3,LB,11,40
+825,"Betty English",20,"377 West White Oak Boulevard",57,8,4967,6.32,249,6,LWB,2,33
+826,"Jess Gregory",24,"420 East White Milton Parkway",61,10,5818,13.16,225,2,RM,1,25
+827,"Raymond Howell",20,"30 North Green Second Way",67,20,5717,15.61,307,14,AML,4,42
+828,"Arnold Santana",22,"649 South White First Road",94,84,1544,6.16,206,20,M,12,3
+829,"Barry Downs",29,"709 North White Milton Blvd.",51,60,2952,41.54,350,48,M,15,12
+830,"Kristina Holder",28,"788 North Rocky Clarendon Way",72,70,7213,76.01,239,28,D,12,23
+831,"Julia Cantu",11,"101 East Green New Drive",15,65,1143,62.99,72,34,AMR,13,10
+832,"Maggie Kline",25,"74 South Green Hague Freeway",34,9,7437,57.79,148,6,SW,12,19
+833,"Sylvia Lowery",18,"781 East Rocky Milton Boulevard",96,23,4158,71.35,5,13,RB,15,2
+834,"Jacquelyn Dickson",29,NULL,81,79,7947,84.62,285,34,CF,14,29
+835,"Gavin Singleton",23,"988 South White Milton Road",81,68,935,95.30,102,5,DM,7,34
+836,"Chrystal Chambers",24,"630 North Green Nobel Drive",98,20,5207,77.89,331,1,M,12,33
+837,"Nicole Nolan",26,"32 West Green Milton Drive",78,62,1225,95.49,42,46,SW,5,21
+838,"Brady Wade",20,"782 North Green Second Freeway",58,76,2176,41.10,112,22,GK,2,48
+839,"Tabitha Rodgers",25,"75 West Green Clarendon Blvd.",85,71,1473,1.39,106,5,CB,8,33
+840,"Charlie Jordan",22,"58 South White First Road",77,13,544,41.49,84,28,GK,17,32
+841,"Luke Woods",20,"167 North Green Clarendon Drive",63,15,5398,11.59,281,11,GK,3,38
+842,"Monica Rich",10,"533 West Green New Drive",4,53,259,52.53,15,27,WB,10,2
+843,"Ramiro Saunders",29,NULL,25,62,4393,85.90,305,7,AMR,7,14
+844,"Eileen Jennings",25,"327 South Rocky First Drive",7,27,5730,84.24,368,6,WB,14,38
+845,"Dana Hart",25,"324 North Green Nobel Drive",94,97,8049,91.34,25,4,GK,0,8
+846,"Gilbert Hodge",29,"79 South Rocky Second Freeway",29,84,1670,73.13,201,2,CB,19,35
+847,"Roberta Dickson",22,"220 North Green Second Drive",73,75,6261,70.96,328,42,M,16,45
+848,"Dion Moran",28,"943 South Green Hague Drive",30,69,4585,89.60,353,13,LW,9,23
+849,"Calvin Franklin",19,"634 North Green Hague Avenue",12,72,8090,50.11,216,7,M,18,48
+850,"Shawn Lutz",29,"694 South Rocky Milton Road",27,99,7596,55.39,54,42,CDM,8,49
+851,"Cheri Flowers",14,"11 East Green Oak Freeway",34,53,8708,15.46,39,14,SW,18,42
+852,"Billy Schneider",23,"419 East Green Hague Freeway",64,64,5864,64.42,258,32,GK,12,32
+853,"Esmeralda Wilkins",19,NULL,42,8,971,75.99,26,36,GK,8,35
+854,"Edgar Middleton",26,"61 West Rocky First Freeway",39,32,4796,45.84,45,2,M,3,41
+855,"Kimberley Yu",21,"989 South Green Second Blvd.",53,86,7855,20.01,339,8,WB,10,8
+856,"Marjorie Hodge",22,"687 North Green New Parkway",92,14,4499,70.72,314,0,AML,11,32
+857,"Damien Mayer",18,"890 South Green First Freeway",27,7,5823,45.33,204,16,GK,14,37
+858,"Rolando Arroyo",10,NULL,54,80,385,29.26,223,40,M,6,28
+859,"Kerrie Doyle",17,"254 North White Milton Freeway",82,40,6062,24.76,53,35,SW,11,21
+860,"April Vang",22,"33 North Rocky Second Way",21,96,6119,43.80,101,0,D,9,15
+861,"Amber Ortiz",11,NULL,82,79,8183,86.24,272,32,GK,14,26
+862,"Bethany Webster",13,NULL,32,35,2431,29.48,174,23,M,8,27
+863,"Dora Park",10,"42 South Rocky First Street",79,93,4857,66.46,131,23,LM,3,42
+864,"Hilary Zamora",23,"74 West Green Clarendon Street",98,4,8072,93.80,80,12,AML,2,20
+865,"Casey Collins",12,"83 West Green Fabien Drive",71,15,7655,28.13,180,44,AML,0,9
+866,"Julio Bond",28,"26 West Green Nobel Avenue",85,35,7887,36.52,332,16,AML,6,40
+867,"Mitchell Chapman",19,NULL,78,67,155,89.54,136,11,M,9,44
+868,"Garry Gallegos",10,"98 South Green Hague Boulevard",79,93,4805,65.96,131,22,AMR,3,42
+869,"Isaac Hanna",21,"13 South Green New Way",84,6,3806,62.97,280,45,GK,9,27
+870,"Lawrence Reyes",11,"28 North Green Nobel Way",18,19,1216,15.38,102,13,LB,4,16
+871,"Eric Bauer",24,"32 North Green Oak Way",10,49,2763,69.73,276,4,GK,5,14
+872,"Tera Coleman",27,"76 West White Oak Avenue",69,83,3789,55.48,102,19,AML,2,40
+873,"Brandon Osborn",18,"74 South Rocky Second Road",6,65,7583,44.33,189,3,WB,17,44
+874,"Sylvia Ray",10,"632 South Green Cowley Way",83,81,8202,86.88,283,33,M,14,28
+875,"Virginia Boyle",14,"746 South Rocky Milton Road",96,26,3488,67.30,56,21,LM,16,15
+876,"Clifton Obrien",20,"418 North Rocky Milton Street",31,10,6376,50.24,200,15,D,14,34
+877,"Mandy Trujillo",16,"370 West Green Hague Street",91,18,3519,64.85,390,11,AML,14,1
+878,"Randy Landry",18,"723 South White Milton Avenue",76,0,2896,54.26,271,45,SW,9,29
+879,"Barbara Ray",19,"842 North Green Second Parkway",94,53,7114,36.77,110,42,LM,13,30
+880,"Jay Howard",27,"675 North Rocky Cowley Boulevard",71,69,6882,73.43,250,30,WB,12,26
+881,"Lea Franco",25,"261 West White First Way",47,8,2080,84.19,378,28,DM,6,21
+882,"Bill Ward",25,NULL,49,61,2305,37.28,391,4,GK,17,23
+883,"Ian Orr",25,"721 South Rocky Fabien Freeway",91,94,7898,89.12,5,1,CF,19,5
+884,"Elena Garza",10,"58 East Green Second Boulevard",31,19,4924,42.61,338,36,DM,19,18
+885,"Roger Andrade",25,NULL,54,67,2533,40.91,28,10,SS,18,29
+886,"Sarah Cantrell",13,NULL,81,93,5449,70.67,102,18,GK,2,34
+887,"Bryan Barr",18,"945 North Green Oak Drive",50,34,7227,64.54,358,37,CF,0,14
+888,"Ginger Wagner",16,"73 East Rocky Hague Street",25,90,8542,59.56,345,25,WB,4,23
+889,"Lauren Howell",12,"73 East Green Second Blvd.",74,35,4834,14.17,69,38,D,11,29
+890,"Nichole Mc Intyre",16,"848 South Rocky Cowley Drive",92,3,6672,83.15,132,21,SW,4,36
+891,"Hannah Shaffer",20,"692 North Rocky Hague Drive",16,75,8562,54.76,224,8,AM,19,48
+892,"Tracey Bridges",17,"711 North White First Way",14,59,1915,66.77,393,22,CAM,10,41
+893,"Juan Larson",20,"23 North Green Clarendon Drive",26,21,3185,30.33,27,1,LM,2,43
+894,"Jacquelyn Ruiz",19,"76 North White Hague Drive",3,78,4636,26.78,18,40,ST,5,3
+895,"Anne Mc Gee",24,"61 South Rocky Clarendon Parkway",93,65,4819,23.94,309,24,CAM,1,29
+896,"Stephen Howell",28,"15 West Green Nobel Parkway",94,12,5527,77.72,255,40,GK,9,16
+897,"Wesley Weaver",25,"153 West Rocky Hague Drive",78,13,1050,45.16,61,24,M,16,25
+898,"Irma Reed",28,"53 South White Second Street",24,45,7248,2.12,40,15,DM,17,48
+899,"Julius Rojas",23,"283 North Rocky Old Parkway",46,9,1888,83.02,392,30,LB,7,24
+900,"Janette Jones",21,"33 South Rocky Hague Freeway",61,29,2530,94.20,121,48,LM,12,49
+901,"Jasmine Garza",10,"395 North Green Milton Way",57,17,3624,98.21,375,26,GK,6,14
+902,"Maurice Allison",17,"667 North Green Clarendon Road",47,48,3908,44.76,216,27,GK,10,30
+903,"Cara Nichols",24,"512 South Rocky Oak Freeway",16,23,95,8.33,180,26,GK,7,37
+904,"Darla Sexton",18,"78 North White Fabien Street",56,26,1621,86.57,138,2,M,13,6
+905,"Jonathan Diaz",16,"81 South White Fabien Avenue",16,12,1977,18.72,14,0,CDM,1,45
+906,"Annie Page",27,"15 West Green Nobel Avenue",68,48,821,88.11,353,34,LCB,1,3
+907,"Mike Serrano",10,"71 North Green Milton Avenue",97,64,6000,32.18,246,13,AM,19,12
+908,"Kristin Mullen",25,"177 North White Fabien Road",63,45,190,82.34,353,34,LB,1,6
+909,"Omar Matthews",17,"70 West Green Hague Road",53,72,1371,34.03,120,24,SW,2,3
+910,"Annette Winters",27,"25 South Rocky Milton Drive",68,16,6817,22.29,225,1,WB,1,21
+911,"Dustin Velazquez",28,"713 South Rocky Second Drive",6,91,3112,19.93,191,16,LW,12,45
+912,"Deborah Middleton",22,"246 South Rocky Milton Way",31,92,690,68.63,310,19,RM,3,12
+913,"Caroline Rhodes",16,"576 East White Oak Avenue",24,72,2496,75.21,68,32,SS,13,4
+914,"Roberta Stuart",25,"28 East Green New Drive",13,18,71,6.48,141,20,CB,5,29
+915,"Randolph Fischer",16,"975 East Green Second Drive",63,36,1748,90.85,213,12,LB,16,21
+916,"Drew Lucero",13,"871 North White Second Road",43,30,6120,55.01,373,40,WB,1,21
+917,"Daphne Delgado",20,"446 North Rocky Old Drive",53,53,4743,52.39,216,27,WB,10,27
+918,"Spencer Berger",11,"761 South White Fabien St.",19,54,4336,82.87,245,48,LB,5,1
+919,"Joyce Bird",17,"439 South White Fabien Freeway",71,77,5491,65.78,374,49,GK,17,7
+920,"Teri Butler",27,"360 South Green Milton Way",27,67,4289,86.61,346,13,CM,9,22
+921,"Heidi Castro",10,"26 West Green Milton Road",14,81,6940,44.80,343,27,AML,3,29
+922,"Gavin Stafford",11,"83 East Green Milton Parkway",10,77,6838,42.58,312,22,M,2,23
+923,"Bridget Hunter",27,"73 East Green Milton Street",15,19,448,9.67,134,19,AMR,5,26
+924,"Lena Gregory",22,"74 West White Clarendon Drive",19,11,3059,26.07,352,40,AM,19,28
+925,"Virgil Clements",18,NULL,68,40,2395,96.99,218,13,LCB,16,20
+926,"Jerome Salas",28,"78 North Green Oak Drive",33,6,7767,59.19,108,0,AMR,10,10
+927,"Melissa Cruz",18,NULL,25,71,2780,77.15,52,30,M,13,0
+928,"Kent Huff",28,"423 West Rocky Clarendon Boulevard",39,47,2052,30.64,286,39,M,12,2
+929,"Bart Pruitt",16,"141 West Green First St.",25,74,2488,75.72,82,34,GK,14,7
+930,"Julian Gaines",22,NULL,9,83,5383,33.90,25,40,WB,6,2
+931,"Adriana Faulkner",23,"72 North Green First Way",63,13,5771,13.75,250,6,ST,2,30
+932,"Claude Barr",16,"61 West Green Fabien Drive",58,30,1449,86.65,178,8,D,14,15
+933,"Melvin Andersen",29,"295 East White Second Road",92,59,5491,26.94,232,12,AM,18,11
+934,"Elizabeth Gillespie",15,"124 West White Milton Avenue",86,80,121,93.51,239,26,GK,13,16
+935,"William Mcfarland",22,"350 West White Second Avenue",85,89,7058,81.38,4,2,M,19,8
+936,"Joanne Nolan",15,"38 North White Second Way",73,14,8331,32.98,147,38,GK,19,49
+937,"Israel Sutton",11,"639 South Green Second Way",25,61,4799,88.33,274,2,AML,6,6
+938,"Jennie Ferrell",29,NULL,94,78,2693,12.68,108,5,AM,8,29
+939,"Tomas Tate",23,"70 East Green Hague Blvd.",57,88,8501,25.60,331,7,CDM,10,4
+940,"Trisha Rhodes",28,NULL,16,19,710,11.51,121,17,CAM,5,22
+941,"Micheal Santiago",17,"98 West Green Nobel Boulevard",35,52,247,19.02,5,8,SW,17,33
+942,"Elias Horton",20,"75 South White Second Avenue",60,12,5160,8.97,270,9,WB,3,37
+943,"Jonathon Calderon",23,"26 South Green Second Road",74,59,572,89.83,50,48,LB,5,25
+944,"Victor Yu",19,"88 West Rocky Nobel Road",23,68,2817,76.25,22,25,GK,11,44
+945,"Dawn Wolf",13,"75 North Green Nobel Boulevard",85,47,5723,24.64,125,46,LB,14,38
+946,"Tami Holder",20,"265 North Green Nobel Avenue",42,8,1096,76.71,15,34,M,7,32
+947,"Daniel Meza",20,"69 North Green Second Blvd.",58,26,2078,90.04,120,49,GK,12,0
+948,"Kent Moore",23,"914 South Green Milton Blvd.",56,71,2440,41.55,64,15,WB,0,37
+949,"Yvette Flores",10,"284 South Green Milton Road",78,8,1867,49.35,381,12,AM,13,5
+950,"Angelia Simmons",28,"554 South Green Hague St.",78,76,7484,80.18,280,33,AM,14,30
+951,"Xavier Terry",18,"388 South Green Second Freeway",69,57,8488,81.11,79,3,CB,6,35
+952,"Tami Short",19,"97 West Green Fabien Freeway",92,67,4102,19.37,357,31,WB,3,42
+953,"Cornelius Hahn",26,"743 North Green Fabien Road",63,11,6259,16.68,213,0,GK,1,21
+954,"Kyle Spencer",24,"223 North Green Milton Drive",26,52,6745,0.63,116,27,SW,0,15
+955,"Tammy Livingston",17,NULL,33,98,132,66.42,380,30,CDM,5,28
+956,"Sheila Sosa",10,"745 East Green New St.",43,17,8654,69.23,155,6,GK,13,16
+957,"Joseph Rangel",16,"83 North Rocky Second Avenue",52,89,7102,15.64,0,18,D,12,23
+958,"Sylvia Williamson",10,"87 East Rocky Hague Way",38,61,8339,15.53,123,26,LM,1,11
+959,"Latanya Sparks",13,"879 South Green Milton Way",43,98,3066,87.91,249,8,ST,1,40
+960,"Christine Dillon",25,"78 East White Hague Road",67,32,3421,2.73,105,45,LWB,12,42
+961,"Lloyd Galvan",12,"62 West Green Clarendon Boulevard",78,39,5108,17.61,91,41,SW,12,33
+962,"Mindy Hull",14,"73 West Rocky Second Road",35,54,8727,15.95,47,15,AML,18,44
+963,"Susana Archer",12,NULL,50,56,3443,43.99,301,40,M,13,0
+964,"Damon Hale",29,NULL,8,93,3388,22.63,195,17,M,12,44
+965,"Drew Holder",19,"12 South Rocky First Parkway",58,10,4960,6.94,266,9,GK,2,37
+966,"Gail Mejia",16,"415 South Green Second Boulevard",34,50,54,17.15,3,8,CB,16,33
+967,"Lee Coffey",10,"775 West Green First Blvd.",29,32,1832,24.26,181,24,AMR,8,30
+968,"Josh Mccoy",16,"72 South Rocky Hague Parkway",51,71,1027,31.11,125,25,AMR,2,5
+969,"Terrence Harmon",20,"72 North Green Second Freeway",48,47,4469,48.52,183,22,GK,9,21
+970,"Shelly Doyle",15,"75 North Green Hague Way",1,46,862,54.63,332,14,AM,7,32
+971,"Kelly Shea",28,"257 West Green New Freeway",70,51,1026,90.40,363,35,CF,2,5
+972,"Christian Flynn",12,"312 South Green Milton Avenue",31,50,8286,11.35,33,13,CM,17,42
+973,"Kendrick Collins",29,"58 East Green Fabien Avenue",7,58,305,54.59,55,32,WB,12,10
+974,"Dustin Mcpherson",26,"84 East Rocky Hague Avenue",29,69,4260,87.29,369,16,D,10,27
+975,"Tonya Irwin",17,"29 East White New Way",56,10,4555,3.72,277,11,GK,3,40
+976,"Meghan Simpson",16,"83 West Green Fabien Road",33,33,2942,32.66,137,17,DM,6,17
+977,"Marvin Schneider",18,"532 South Green Clarendon Way",45,28,6946,60.45,321,32,CM,19,7
+978,"Curtis Costa",29,"56 East Green Second Drive",8,92,3456,22.98,188,16,LB,12,43
+979,"Douglas O'Neill",17,"518 North Rocky Nobel Boulevard",68,90,2270,46.49,222,38,LM,6,21
+980,"Raquel Hatfield",10,"38 South Rocky Hague Drive",32,54,7998,10.48,76,20,SW,19,2
+981,"Leon Brandt",23,"235 North Rocky Second Road",38,66,7355,9.83,203,39,WB,4,31
+982,"Russell Villarreal",10,"83 South Green Cowley Street",53,95,6312,11.76,82,31,CB,15,43
+983,"Faith Suarez",27,"735 North White Second Drive",74,5,1102,43.00,397,15,DM,13,12
+984,"Clay Trujillo",23,"67 West Green Clarendon Boulevard",67,1,38,33.78,10,18,SS,13,18
+985,"Shanna Sims",28,"54 East Rocky Fabien Way",65,11,6698,19.81,191,46,LB,0,15
+986,"Yesenia Silva",17,"191 South Green Second Drive",73,13,8547,34.10,127,35,WB,18,44
+987,"Linda Davidson",28,"57 North Green Oak Blvd.",11,13,334,7.01,95,13,RCB,4,18
+988,"Nichole Delgado",20,"93 East Rocky Nobel Drive",16,60,2509,71.35,372,18,DM,9,34
+989,"Sonny Delacruz",26,"543 North Green First Freeway",48,75,8334,20.19,237,43,LCB,6,35
+990,"Reginald Rich",13,"74 South Rocky Hague St.",17,33,7566,0.56,332,49,M,13,24
+991,"Rosa Barton",10,"851 East White Old Drive",40,30,5483,50.11,396,44,WB,1,28
+992,"Robert Briggs",22,"46 East White Clarendon Freeway",46,76,7690,15.67,270,49,SS,7,44
+993,"Loretta Hughes",22,"48 North Rocky Fabien Blvd.",38,16,7216,58.51,214,16,D,14,34
+994,"Shana Baxter",25,"869 East Green Second Boulevard",2,55,8440,47.25,69,35,D,12,16
+995,"Erik Glass",27,"32 South Green Second Drive",10,46,3235,71.92,224,46,LB,3,1
+996,"Michele Ballard",27,"81 South Green First Boulevard",35,76,4725,92.76,398,20,AMR,11,32
+997,"Alissa Dorsey",20,NULL,37,51,773,22.67,377,4,CF,16,25
+998,"Kari Jackson",21,"956 North Green Clarendon Road",61,12,5422,10.81,256,7,LB,2,33
+999,"Jeanette Benson",23,"543 South White Milton Freeway",44,56,1655,30.91,381,4,CDM,16,23

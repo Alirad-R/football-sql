@@ -1,0 +1,51 @@
+id,name,capacity,stadium_type,city
+1,"Camp Nou",99354,Soccer,Barcelona
+2,"Wembley Stadium",90000,Soccer,London
+3,"Signal Iduna Park",81365,Soccer,Dortmund
+4,"Santiago BernabÃ©u Stadium",81044,Soccer,Madrid
+5,"San Siro",80018,Soccer,Milan
+6,"Stade de France",81338,Soccer,Saint-Denis
+7,"Old Trafford",74879,Soccer,Manchester
+8,"Allianz Arena",75000,Soccer,Munich
+9,"AtatÃ¼rk Olympic Stadium",75000,Soccer,Istanbul
+10,"Luzhniki Stadium",81000,Soccer,Moscow
+11,"Estadio Monumental",70000,Soccer,"Buenos Aires"
+12,"MetLife Stadium",82500,Soccer,"East Rutherford"
+13,"Celtic Park",60832,Soccer,Glasgow
+14,"EstÃ¡dio do MaracanÃ£",78838,Soccer,"Rio de Janeiro"
+15,"Stadio Olimpico",72698,Soccer,Rome
+16,"NSC Olimpiyskiy",70050,Soccer,Kyiv
+17,"La Bombonera",49000,Soccer,"Buenos Aires"
+18,"Emirates Stadium",60260,Soccer,London
+19,"Estadio Azteca",87523,Soccer,"Mexico City"
+20,"Rose Bowl",92542,Soccer,Pasadena
+21,"Stamford Bridge",40834,Soccer,London
+22,"Elland Road",37890,Soccer,Leeds
+23,"King Power Stadium",32312,Soccer,Leicester
+24,"Goodison Park",39414,Soccer,Liverpool
+25,Anfield,54074,Soccer,Liverpool
+26,"Etihad Stadium",55097,Soccer,Manchester
+27,"Parc des Princes",47929,Soccer,Paris
+28,"Amsterdam Arena",55300,Soccer,Amsterdam
+29,"Signal Iduna Park",81365,Soccer,Dortmund
+30,Velodrome,67394,Soccer,Marseille
+31,"Camp Nou",99354,Soccer,Barcelona
+32,"Wanda Metropolitano",68456,Soccer,Madrid
+33,"Allianz Stadium",41507,Soccer,Turin
+34,Olympiastadion,74475,Soccer,Berlin
+35,"Friends Arena",50000,Soccer,Stockholm
+36,"National Stadium",58580,Soccer,Warsaw
+37,Veltins-Arena,62271,Soccer,Gelsenkirchen
+38,"San Mames",53289,Soccer,Bilbao
+39,"Estadio do DragÃ£o",50033,Soccer,Porto
+40,"Groupama Stadium",59186,Soccer,Lyon
+41,"King Baudouin Stadium",50093,Soccer,Brussels
+42,"Moses Mabhida Stadium",56633,Soccer,Durban
+43,"Cape Town Stadium",55000,Soccer,"Cape Town"
+44,"Estadio Nacional",50000,Soccer,Lima
+45,"Saitama Stadium",63700,Soccer,Saitama
+46,"Krestovsky Stadium",68134,Soccer,"Saint Petersburg"
+47,"Al Janoub Stadium",40000,Soccer,"Al Wakrah"
+48,"Education City Stadium",45350,Soccer,"Al Rayyan"
+49,"Khalifa International Stadium",40000,Soccer,Doha
+50,"Ahmad bin Ali Stadium",40000,Soccer,"Al Rayyan"

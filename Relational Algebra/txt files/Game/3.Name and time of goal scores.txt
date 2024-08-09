@@ -1,0 +1,1 @@
+πt.team_id,g.g_id,t.name,g.match_id,g.player_id,g.goal_time​((game⋈g.player_id=pig.id​σpig.goals>0​(player_in_game))⋈g.team_id=t.team_id​team)

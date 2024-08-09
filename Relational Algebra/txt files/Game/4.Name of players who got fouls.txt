@@ -1,0 +1,1 @@
+πg.g_id,g.match_id,t.team_id,p.id,t.name,p.name,g.foul_time,g.foul_type​((game⋈g.player_id=pig.id​σpig.fouls>0∧g.foul_time=NULL​(player_in_game×game))⋈g.team_id=t.team_id​team)⋈pig.id=p.id​player

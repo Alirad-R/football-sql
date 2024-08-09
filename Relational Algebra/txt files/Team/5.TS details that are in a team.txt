@@ -1,0 +1,4 @@
+Join1=staff⋈wf.staff_id=s.id​works_for
+Join2=Join1⋈wf.team_id=t.team_idteam
+
+π∗​(Order(σs.role=′Coach′∧wf.contract_termination_date>current_date()​(Join2),t.team_id))

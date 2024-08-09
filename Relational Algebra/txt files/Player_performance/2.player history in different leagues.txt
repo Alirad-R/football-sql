@@ -1,0 +1,5 @@
+Join1=game⋈g.player_id=pig.id​player_in_game
+Join2=Join1⋈pig.id=p.idplayer
+Join3=Join2⋈g.team_id=t.team_idteam
+
+πpig.id,g.league_id,g.team_id,t.name,p.name,time_played,goals_scored,player_score​(γpig.id,g.league_id,g.team_id,t.name,p.name;∑(pig.time_played),∑(pig.goals),avg(pig.player_score)​(Join3))

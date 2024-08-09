@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="Project_1" id="Project_19cc" database="MySql" >
+	<schema name="football_project" >
+		<table name="game" >
+			<comment><![CDATA[game played that connects match and player and team]]></comment>
+			<column name="team_id" type="int" jt="4" mandatory="y" />
+			<column name="match_id" type="int" jt="4" mandatory="y" />
+			<column name="player_id" type="int" jt="4" mandatory="y" />
+			<column name="league_id" type="int" jt="4" mandatory="y" />
+			<column name="g_id" type="int" jt="4" mandatory="y" />
+			<column name="sub_in" type="boolean" length="100" jt="-7" >
+				<defo><![CDATA[false]]></defo>
+				<comment><![CDATA[if player has been subbed in or not]]></comment>
+			</column>
+			<column name="sub_out" type="boolean" length="100" jt="-7" >
+				<defo><![CDATA[false]]></defo>
+				<comment><![CDATA[if player has been subbed out]]></comment>
+			</column>
+			<column name="sub_time" type="int" jt="4" >
+				<comment><![CDATA[time of sub]]></comment>
+			</column>
+			<column name="goal_time" type="int" jt="4" />
+			<column name="foul_time" type="int" length="10" decimal="0" jt="4" />
+			<column name="foul_type" type="varchar" length="20" decimal="0" jt="12" />
+			<index name="unq_game_match_id" unique="UNIQUE_KEY" >
+				<column name="match_id" />
+			</index>
+			<index name="unq_game_player_id" unique="UNIQUE_KEY" >
+				<column name="player_id" />
+			</index>
+			<index name="fk_game_league" unique="NORMAL" >
+				<column name="league_id" />
+			</index>
+			<index name="pk_game_team_id" unique="PRIMARY_KEY" >
+				<column name="team_id" />
+				<column name="match_id" />
+				<column name="player_id" />
+				<column name="league_id" />
+				<column name="g_id" />
+			</index>
+			<fk name="fk_game_team" to_schema="football_project" to_table="team" >
+				<fk_column name="team_id" pk="team_id" />
+			</fk>
+			<fk name="fk_game_match" to_schema="football_project" to_table="match" >
+				<fk_column name="match_id" pk="match_id" />
+			</fk>
+			<fk name="fk_game_player_in_game" to_schema="football_project" to_table="player_in_game" >
+				<fk_column name="player_id" pk="id" />
+			</fk>
+			<fk name="fk_game_league" to_schema="football_project" to_table="league" >
+				<fk_column name="league_id" pk="league_id" />
+			</fk>
+			<fk name="fk_game_matches" to_schema="football_project" to_table="matches" >
+				<fk_column name="match_id" pk="match_id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="league" prior="tbl" >
+			<comment><![CDATA[leagues of the football]]></comment>
+			<column name="league_id" type="int" jt="4" mandatory="y" />
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="champion" type="varchar" length="100" jt="12" >
+				<comment><![CDATA[the team who got first in the league]]></comment>
+			</column>
+			<column name="season" type="varchar" length="10" jt="12" mandatory="y" />
+			<column name="league_type" type="varchar" length="20" jt="12" mandatory="y" />
+			<column name="top_scorrer" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="top_assister" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="best_keeper" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="pk_league_name" unique="PRIMARY_KEY" >
+				<column name="name" />
+				<column name="league_id" />
+			</index>
+			<index name="unq_league_league_id" unique="UNIQUE_KEY" >
+				<column name="league_id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="match" prior="tbl" >
+			<comment><![CDATA[descriptions about a match]]></comment>
+			<column name="match_id" type="int" jt="4" mandatory="y" />
+			<column name="injured" type="varchar" length="100" jt="12" >
+				<comment><![CDATA[names of players who got injured in a match]]></comment>
+			</column>
+			<column name="cards_yellow" type="int" length="100" jt="4" >
+				<comment><![CDATA[amount of yellow cards given in the match]]></comment>
+			</column>
+			<column name="cards_red" type="int" length="100" jt="4" >
+				<comment><![CDATA[amount of red cards given in the match]]></comment>
+			</column>
+			<column name="fouls" type="int" jt="4" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[amount of fouls in the match]]></comment>
+			</column>
+			<column name="match_date_time" type="datetime" jt="93" />
+			<column name="home_team_id" type="int" jt="4" mandatory="y" />
+			<column name="away_team_id" type="int" jt="4" mandatory="y" />
+			<column name="result" type="varchar" length="20" jt="12" mandatory="y" >
+				<defo><![CDATA['0-0']]></defo>
+				<comment><![CDATA[written in this format
+home_team_result - away_team_result]]></comment>
+			</column>
+			<column name="lineup_home" prior="lineup" type="varchar" length="20" jt="12" mandatory="y" />
+			<column name="lineup_away" type="varchar" length="20" jt="12" mandatory="y" />
+			<index name="pk_tbl_match_id" unique="PRIMARY_KEY" >
+				<column name="match_id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="match_referee" prior="match/referee" >
+			<comment><![CDATA[details of match described by referee or observer]]></comment>
+			<column name="match_id" type="int" jt="4" mandatory="y" />
+			<column name="ref_id" type="int" jt="4" mandatory="y" />
+			<column name="details" type="mediumtext" length="16777215" decimal="0" jt="-1" />
+			<column name="game_rating" prior="reports" type="int" jt="4" mandatory="y" >
+				<comment><![CDATA[out of 100]]></comment>
+			</column>
+			<column name="game_home_result" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="game_away_result" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<index name="pk_match/referee_match_id" unique="PRIMARY_KEY" >
+				<column name="match_id" />
+				<column name="ref_id" />
+			</index>
+			<index name="fk_match/referee_referee/observer" unique="NORMAL" >
+				<column name="ref_id" />
+			</index>
+			<fk name="fk_match/referee_match" to_schema="football_project" to_table="match" >
+				<fk_column name="match_id" pk="match_id" />
+			</fk>
+			<fk name="fk_match/referee_referee/observer" to_schema="football_project" to_table="referee_observer" >
+				<fk_column name="ref_id" pk="id" />
+			</fk>
+			<fk name="fk_match_referee_matches" to_schema="football_project" to_table="matches" >
+				<fk_column name="match_id" pk="match_id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="match_stadium" prior="match/stadium" generator_rows="100" >
+			<comment><![CDATA[details about a match which is played in a stadium]]></comment>
+			<column name="amount_of_spectators" type="int" jt="4" regexp="int:from=0;to=50000;" />
+			<column name="stadium_id" type="int" jt="4" mandatory="y" />
+			<column name="match_id" type="int" jt="4" mandatory="y" />
+			<index name="pk_match/stadium_stadium_id" unique="PRIMARY_KEY" >
+				<column name="stadium_id" />
+				<column name="match_id" />
+			</index>
+			<index name="fk_match/stadium_match" unique="NORMAL" >
+				<column name="match_id" />
+			</index>
+			<fk name="fk_match/stadium_stadium" to_schema="football_project" to_table="stadium" >
+				<fk_column name="stadium_id" pk="id" />
+			</fk>
+			<fk name="fk_match/stadium_match" to_schema="football_project" to_table="match" >
+				<fk_column name="match_id" pk="match_id" />
+			</fk>
+			<fk name="fk_match_stadium_matches" to_schema="football_project" to_table="matches" >
+				<fk_column name="match_id" pk="match_id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="matches" >
+			<comment><![CDATA[descriptions about a match]]></comment>
+			<column name="match_id" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="injured" type="varchar" length="100" decimal="0" jt="12" >
+				<comment><![CDATA[names of players who got injured in a match]]></comment>
+			</column>
+			<column name="cards_yellow" type="int" length="10" decimal="0" jt="4" >
+				<comment><![CDATA[amount of yellow cards given in the match]]></comment>
+			</column>
+			<column name="cards_red" type="int" length="10" decimal="0" jt="4" >
+				<comment><![CDATA[amount of red cards given in the match]]></comment>
+			</column>
+			<column name="fouls" type="int" length="10" decimal="0" jt="4" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[amount of fouls in the match]]></comment>
+			</column>
+			<column name="match_date_time" type="datetime" length="19" decimal="0" jt="93" />
+			<column name="home_team_id" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="away_team_id" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="result" type="varchar" length="20" decimal="0" jt="12" mandatory="y" >
+				<defo><![CDATA['0-0']]></defo>
+				<comment><![CDATA[written in this format
+home_team_result - away_team_result]]></comment>
+			</column>
+			<column name="lineup_home" type="varchar" length="20" decimal="0" jt="12" mandatory="y" />
+			<column name="lineup_away" type="varchar" length="20" decimal="0" jt="12" mandatory="y" />
+			<index name="pk_matches" unique="PRIMARY_KEY" >
+				<column name="match_id" />
+			</index>
+		</table>
+		<table name="player" prior="tbl" generator_rows="1000" >
+			<column name="id" prior="ssn" type="int" jt="4" mandatory="y" />
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="age" type="int" jt="4" mandatory="y" regexp="int:from=10;to=30;" />
+			<column name="address" type="varchar" length="100" jt="12" />
+			<column name="current_shirt_no" type="int" jt="4" mandatory="y" regexp="int:from=1;to=99;" >
+				<comment><![CDATA[this could change for a player and will be distinguishable in the play relation]]></comment>
+			</column>
+			<column name="injury" type="int" jt="4" mandatory="y" regexp="int:from=0;to=100;" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[how many injuries a player has had in their career]]></comment>
+			</column>
+			<column name="total_time_played" type="int" jt="4" mandatory="y" regexp="int:from=0;to=9000;" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[total time played in the player's career]]></comment>
+			</column>
+			<column name="player_overall_score" type="float" length="4" decimal="2" jt="7" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="goals" type="int" jt="4" mandatory="y" regexp="int:from=0;to=400;" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="fouls" type="int" jt="4" mandatory="y" regexp="int:from=0;to=50;" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="most_played_position" type="varchar" length="100" jt="12" mandatory="y" regexp="(GK|D|SW|CB|RCB|LCB|RB|LB|WB|RWB|LWB|M|DM|CDM|CM|RM|LM|AM|CAM|AMR|AML|RW|LW|SS|CF|ST)" >
+				<comment><![CDATA[a position for a player can change accordingly. we will just get their most played position.]]></comment>
+			</column>
+			<column name="red_cards" type="int" jt="4" mandatory="y" regexp="int:from=0;to=20;" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="yellow_cards" type="int" jt="4" mandatory="y" regexp="int:from=0;to=50;" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<index name="pk_player_ssn" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="player_in_game" prior="tbl" >
+			<comment><![CDATA[attributes of a player in a single game]]></comment>
+			<column name="id" prior="ssn" type="int" jt="4" mandatory="y" />
+			<column name="shirt_no" type="int" jt="4" mandatory="y" />
+			<column name="position" type="varchar" length="100" jt="12" />
+			<column name="played" type="boolean" jt="-7" mandatory="y" >
+				<defo><![CDATA[false]]></defo>
+			</column>
+			<column name="yellow_cards" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="red_cards" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="fouls" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="goals" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="player_score" type="float" length="4" decimal="2" jt="7" mandatory="y" />
+			<column name="time_played" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[in minutes]]></comment>
+			</column>
+			<column name="injury" type="boolean" jt="-7" mandatory="y" >
+				<defo><![CDATA[false]]></defo>
+			</column>
+			<column name="is_main_lineup" type="boolean" jt="-7" mandatory="y" />
+			<index name="pk_player_in_game_ssn" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="fk_player_to_player_in_game" to_schema="football_project" to_table="player" >
+				<fk_column name="id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="player_transfer" prior="tbl" >
+			<column name="player_ssn" type="int" jt="4" mandatory="y" />
+			<column name="team_id" type="int" jt="4" mandatory="y" />
+			<column name="contranct_termination_date" type="date" jt="91" mandatory="y" />
+			<column name="contract_draft_date" type="date" jt="91" mandatory="y" />
+			<column name="prev_team_id" prior="new_team_id" type="int" jt="4" mandatory="y" />
+			<index name="pk_player_transfer" unique="PRIMARY_KEY" >
+				<column name="player_ssn" />
+				<column name="team_id" />
+			</index>
+			<index name="fk_player_transfer_to_team" unique="NORMAL" >
+				<column name="team_id" />
+			</index>
+			<fk name="fk_player_transfer_to_player" to_schema="football_project" to_table="player" >
+				<fk_column name="player_ssn" pk="id" />
+			</fk>
+			<fk name="fk_player_transfer_to_team" to_schema="football_project" to_table="team" >
+				<fk_column name="team_id" pk="team_id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="plays_for" prior="tbl" >
+			<comment><![CDATA[date and time and amount of contracts made between team and player]]></comment>
+			<column name="team_id" type="int" jt="4" mandatory="y" />
+			<column name="player_ssn" type="int" jt="4" mandatory="y" />
+			<column name="contract_amount" type="int" jt="4" mandatory="y" />
+			<column name="contract_draft_time" type="timestamp" jt="93" mandatory="y" />
+			<column name="contract_termination_date" type="date" jt="91" mandatory="y" />
+			<column name="contract_period" type="int" jt="4" />
+			<index name="pk_plays_for_team_id" unique="PRIMARY_KEY" >
+				<column name="team_id" />
+				<column name="player_ssn" />
+			</index>
+			<index name="fk_player_plays_for" unique="NORMAL" >
+				<column name="player_ssn" />
+			</index>
+			<fk name="fk_plays_for_team" to_schema="football_project" to_table="team" >
+				<fk_column name="team_id" pk="team_id" />
+			</fk>
+			<fk name="fk_player_plays_for" to_schema="football_project" to_table="player" >
+				<fk_column name="player_ssn" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="referee_observer" prior="referee/observer" generator_rows="100" >
+			<column name="id" type="int" jt="4" mandatory="y" regexp="sequence:from=10000;step=1;" seed="5" />
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" seed="5" />
+			<column name="date_of_birth" type="date" jt="91" regexp="date:from=&#039;01.01.1940&#039;;to=&#039;01.01.2005&#039;;" seed="5" />
+			<column name="address" type="varchar" length="100" jt="12" seed="5" />
+			<column name="role" type="varchar" length="30" jt="12" mandatory="y" regexp="(referee|observer)" seed="5" >
+				<comment><![CDATA[either a referee or an observer]]></comment>
+			</column>
+			<index name="pk_referee/observer_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="spectator" prior="tbl" generator_rows="500" >
+			<column name="id" type="int" jt="4" mandatory="y" regexp="int:from=6000;to=6999;" />
+			<column name="ticket_no" type="int" jt="4" mandatory="y" />
+			<column name="name" type="varchar" length="100" jt="12" />
+			<column name="date_of_birth" type="date" jt="91" />
+			<column name="age" type="int" jt="4" />
+			<column name="address" type="varchar" length="100" jt="12" />
+			<index name="pk_spectator_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+				<column name="ticket_no" />
+			</index>
+			<index name="fk_spectator_ticket" unique="NORMAL" >
+				<column name="ticket_no" />
+			</index>
+			<fk name="fk_spectator_ticket" to_schema="football_project" to_table="ticket" >
+				<fk_column name="ticket_no" pk="ticket_number" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="stadium" prior="tbl" >
+			<column name="id" type="int" jt="4" mandatory="y" />
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="capacity" type="int" jt="4" />
+			<column name="stadium_type" type="varchar" length="100" jt="12" />
+			<column name="city" type="varchar" length="100" jt="12" />
+			<index name="pk_stadium_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="staff" prior="tbl" generator_rows="400" >
+			<comment><![CDATA[includes technical comittee and coaches]]></comment>
+			<column name="id" type="int" length="100" jt="4" mandatory="y" regexp="sequence:from=20000;step=1;" seed="10" />
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" seed="10" />
+			<column name="date_of_birth" type="date" jt="91" regexp="date:from=&#039;01.01.1950&#039;;to=&#039;01.01.2004&#039;;" seed="10" />
+			<column name="address" type="varchar" length="100" jt="12" seed="10" />
+			<column name="role" type="varchar" length="50" jt="12" mandatory="y" regexp="(Coach|Conditioning coach|Sport nutritionist|Physiotherapist|Data analyst|Scout|Recruiter|Groundsman|Kit manager|Steward|Marketing)" />
+			<index name="pk_staff_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="team" prior="tbl" generator_rows="100" >
+			<column name="team_id" type="int" jt="4" mandatory="y" >
+				<comment><![CDATA[this is the id of the team which differes for each team. this will make computations easier]]></comment>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" regexp="($First Name)" >
+				<comment><![CDATA[this is the name of the team]]></comment>
+			</column>
+			<index name="pk_team_team_id" unique="PRIMARY_KEY" >
+				<column name="team_id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="team_league" prior="team/league" >
+			<comment><![CDATA[this is the relation that connects each team to their league specifying their stats in that league]]></comment>
+			<column name="league_id" type="int" jt="4" mandatory="y" />
+			<column name="team_id" type="int" jt="4" mandatory="y" />
+			<column name="win" prior="w" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[amount of wins for a single team]]></comment>
+			</column>
+			<column name="draw" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[amount of games drawed for a single team.]]></comment>
+			</column>
+			<column name="loss" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[amount of losses for a single team]]></comment>
+			</column>
+			<column name="games_played" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[1]]></defo>
+				<comment><![CDATA[amount of games played by a single team]]></comment>
+			</column>
+			<column name="place" type="int" jt="4" mandatory="y" >
+				<comment><![CDATA[the place of the team on the leaderboard for the league]]></comment>
+			</column>
+			<column name="points" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[this will be evaluated by the amount of wins, losses and draws for a single team in that league]]></comment>
+			</column>
+			<column name="goals_scored" prior="goals" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+				<comment><![CDATA[amount of goals made by a team in a league]]></comment>
+			</column>
+			<column name="goals_received" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="week_of_league" prior="week_" type="int" jt="4" mandatory="y" />
+			<column name="yellow_cards" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="red_cards" type="int" jt="4" mandatory="y" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<index name="pk_team_league_league_id" unique="PRIMARY_KEY" >
+				<column name="league_id" />
+				<column name="team_id" />
+			</index>
+			<index name="fk_team_league_team" unique="NORMAL" >
+				<column name="team_id" />
+			</index>
+			<fk name="fk_team_league_league" to_schema="football_project" to_table="league" >
+				<fk_column name="league_id" pk="league_id" />
+			</fk>
+			<fk name="fk_team_league_team" to_schema="football_project" to_table="team" >
+				<fk_column name="team_id" pk="team_id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="ticket" prior="tbl" >
+			<column name="ticket_number" type="int" jt="4" mandatory="y" />
+			<column name="ticket_type" type="varchar" length="100" jt="12" />
+			<column name="price" type="int" jt="4" />
+			<index name="pk_ticket_ticket_number" unique="PRIMARY_KEY" >
+				<column name="ticket_number" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="ticket_soldby_stadium" prior="tbl" generator_rows="500" >
+			<column name="ticket_no" type="int" jt="4" mandatory="y" />
+			<column name="stadium_id" type="int" jt="4" mandatory="y" />
+			<index name="pk_ticket_soldby_stadium_ticket_no" unique="PRIMARY_KEY" >
+				<column name="ticket_no" />
+				<column name="stadium_id" />
+			</index>
+			<index name="fk_ticket_soldby_stadium_stadium" unique="NORMAL" >
+				<column name="stadium_id" />
+			</index>
+			<fk name="fk_ticket_soldby_stadium_ticket" to_schema="football_project" to_table="ticket" >
+				<fk_column name="ticket_no" pk="ticket_number" />
+			</fk>
+			<fk name="fk_ticket_soldby_stadium_stadium" to_schema="football_project" to_table="stadium" >
+				<fk_column name="stadium_id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="works_for" prior="tbl" >
+			<comment><![CDATA[details of contract between team staff and team]]></comment>
+			<column name="team_id" type="int" jt="4" mandatory="y" />
+			<column name="staff_id" type="int" jt="4" mandatory="y" />
+			<column name="contract_period" type="int" jt="4" >
+				<comment><![CDATA[in months]]></comment>
+			</column>
+			<column name="contract_draft_time" type="datetime" jt="93" />
+			<column name="contract_amount" type="int" jt="4" >
+				<comment><![CDATA[in dollars]]></comment>
+			</column>
+			<column name="contract_termination_date" type="date" jt="91" mandatory="y" />
+			<index name="pk_works_for_team_id" unique="PRIMARY_KEY" >
+				<column name="team_id" />
+				<column name="staff_id" />
+			</index>
+			<index name="fk_works_for_staff" unique="NORMAL" >
+				<column name="staff_id" />
+			</index>
+			<fk name="fk_works_for_staff" to_schema="football_project" to_table="staff" >
+				<fk_column name="staff_id" pk="id" />
+			</fk>
+			<fk name="fk_works_for_team" to_schema="football_project" to_table="team" >
+				<fk_column name="team_id" pk="team_id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+	</schema>
+	<connector name="MyDb" database="MySql" driver_class="com.mysql.jdbc.Driver" driver_jar="mysql-connector-java-8.0.21.jar" driver_desc="Standard" host="localhost" port="3306" user="root" passwd="MTIzNDU2Nzg=" />
+	<connector name="MySql" database="MySql" driver_class="com.mysql.jdbc.Driver" driver_jar="mysql-connector-java-8.0.21.jar" driver_desc="Standard" host="localhost" port="3306" instance="football_project" user="alira" passwd="QWFsaTEzODQ=" schema_mapping="project_1:football_project" />
+	<layout name="Default Layout" id="Layout_355" show_relation="columns" >
+		<comment><![CDATA[Football Project]]></comment>
+		<entity schema="football_project" name="game" color="C1D8EE" x="928" y="64" />
+		<entity schema="football_project" name="league" color="C1D8EE" x="720" y="112" />
+		<entity schema="football_project" name="match_referee" color="C1D8EE" x="1488" y="368" />
+		<entity schema="football_project" name="match_stadium" color="C1D8EE" x="1088" y="144" />
+		<entity schema="football_project" name="matches" color="3986C1" x="1376" y="48" />
+		<entity schema="football_project" name="player" color="C1D8EE" x="864" y="624" />
+		<entity schema="football_project" name="player_in_game" color="C1D8EE" x="1264" y="608" />
+		<entity schema="football_project" name="player_transfer" color="C1D8EE" x="240" y="736" />
+		<entity schema="football_project" name="plays_for" color="C1D8EE" x="400" y="512" />
+		<entity schema="football_project" name="referee_observer" color="C1D8EE" x="1728" y="368" />
+		<entity schema="football_project" name="spectator" color="C1D8EE" x="576" y="352" />
+		<entity schema="football_project" name="stadium" color="C1D8EE" x="1296" y="352" />
+		<entity schema="football_project" name="staff" color="C1D8EE" x="64" y="608" />
+		<entity schema="football_project" name="team" color="C1D8EE" x="128" y="144" />
+		<entity schema="football_project" name="team_league" color="C1D8EE" x="384" y="144" />
+		<entity schema="football_project" name="ticket" color="C1D8EE" x="752" y="384" />
+		<entity schema="football_project" name="ticket_soldby_stadium" color="C1D8EE" x="976" y="368" />
+		<entity schema="football_project" name="works_for" color="C1D8EE" x="48" y="384" />
+		<script name="INITSQL2.sql" id="Editor_12b9" language="SQL" confirmed="y" file="file:/C:/Users/alira/OneDrive/Desktop/University/Term%204/DB/Project/INITSQL2.sql" />
+	</layout>
+</project>

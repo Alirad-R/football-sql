@@ -1,0 +1,6 @@
+R1 = (game ⨝team_id = team_id team) ⨝match_id = match_id (game ⨝team_id = team_id team)
+R2 = (R1 ⨝ match) ⨝league_id = league_id league
+R3 = ((((R2 ⨝ match_stadium) ⨝ stadium) ⨝ tickets_soldby_stadium) ⨝ ticket) ⨝ spectator
+R4 = stadium_id, match_id F count spectator_id, sum ticket_price(R3)
+R5 = (R4 ⨝ match_referee) ⨝ referee_observer
+Result = R5

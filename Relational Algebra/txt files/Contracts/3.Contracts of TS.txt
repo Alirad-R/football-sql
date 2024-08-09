@@ -1,0 +1,4 @@
+Join1=staff JOINs.id=wf.staff_id​ works_for
+Join2=Join1 JOINwf.team_id=t.team_id team
+
+πt.team_id,t.name,s.id,s.name,s.role,wf.contract_draft_time,wf.contract_termination_date,wf.contract_period,wf.contract_amount​(σwf.contract_termination_date>′2020−01−01′∧wf.contract_termination_date<′2023−01−01′​(Join2))

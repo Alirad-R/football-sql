@@ -1,0 +1,8 @@
+Join1=game⋈g.match_id=go.match_id∧g.team_id=go.team_id​game as go
+Join2=Join1⋈g.team_id=t.team_idteam
+Join3=Join2 LEFT_OUTER_JOIN (go⋈go.team_id=top.team_id​team as top)
+Join4=Join3⋈g.player_id=pig.idplayer_in_game
+Join5=Join4⋈g.match_id=m.match_id​matches
+Join6=Join5⋈g.league_id=tl.league_idteam_league
+
+πg.team_id,go.team_id→Opponent_team_id,t.name→team_name,top.name→op_team_name,tl.week_of_league,m.result,goals_scored,goals_received,fouls,yellow_cards,red_cards,lineup​(γg.team_id,go.team_id,t.name,top.name,m.result,g.match_id,m.home_team_id,m.away_team_id,m.lineup_home,m.lineup_away,tl.week_of_league;∑(pig.fouls),∑(pig.yellow_cards),∑(pig.red_cards)​(Join6))

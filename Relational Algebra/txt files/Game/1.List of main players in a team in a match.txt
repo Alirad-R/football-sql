@@ -1,0 +1,1 @@
+πp.name,pig.id,g.team_id,g.match_id​((((game⋈g.player_id=pig.id​σis_main_lineup=1​(player_in_game))⋈g.team_id=t.team_id​team)⋈g.match_id=m.match_id​matches)⋈pig.id=p.id​player)

@@ -1,0 +1,6 @@
+Join1=player LEFT OUTER JOINpf.player_ssn=p.id​ plays_for
+Join2=Join1 LEFT OUTER JOINpt.player_ssn=p.id player_transfer
+Join3=Join2 LEFT OUTER JOINpt.team_id=nt.team_id∨pf.team_id=nt.team_id​ team  as  nt
+Join4=Join3 LEFT OUTER JOINpt.prev_team_id=ot.team_id team  as  ot
+
+πp.id as player_id,p.name as player_name,p.age,p.address,p.current_shirt_no,p.injury,p.player_overall_score,p.goals,p.fouls,p.most_played_position,p.red_cards,p.yellow_cards,pf.contract_draft_time,pf.contract_termination_date,pf.contract_period,pf.contract_amount,pt.contract_draft_date as new_contract,nt.team_id as new_team_id,nt.name as new_team_name,ot.team_id as old_team_id,ot.name as old_team_name​(σnt.team_id=1​(Join4))

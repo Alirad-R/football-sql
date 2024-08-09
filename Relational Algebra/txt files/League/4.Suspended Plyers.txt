@@ -1,0 +1,4 @@
+R1 = ((player_in_league ⨝ game) ⨝ league) ⨝ team
+R2 = R1 ⨝ team_league ⨝ match
+R3 = player_id, week_of_league F count yellow_cards, count red_cards
+R4 = σmatch_date_time.week < week_of_league and (yellow_cards % 3 = 0 or red_cards = 1)(R3) 

@@ -1,0 +1,1 @@
+R1 = ((player_in_league ⨝ game) ⨝ league) ⨝ team

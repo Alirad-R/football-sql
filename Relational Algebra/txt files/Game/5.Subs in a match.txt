@@ -1,0 +1,1 @@
+πt.team_id,g.match_id,g.g_id,pig.id,p.name,t.name,g.sub_in,g.sub_out,g.sub_time​((σg.sub_time!=NULL​(game)⋈g.player_id=pig.id​player_in_game)⋈g.team_id=t.team_id​team)⋈pig.id=p.id​player

@@ -1,0 +1,1 @@
+π∗​(Order(σs.role=′Coach′∧wf.contract_termination_date>current_date()​(Join2),t.team_id))
